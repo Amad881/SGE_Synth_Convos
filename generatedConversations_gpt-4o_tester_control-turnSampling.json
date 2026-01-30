@@ -1,0 +1,64 @@
+[
+  {
+    "convo_id": 0,
+    "prompt": "You are simulating realistic conversations between a User and a Virtual Assistant that supports nutrition-related resources and programs.\nThe Virtual Assistant (Bot) asks questions to help match users to programs. The User responds based on their needs and background.\nYou are tasked with generating a full 3–6 turn conversation between Bot and User, grounded in the provided Input Profile.\nThe User's responses should reflect their unique situation and constraints as described in the profile. Be specific and natural.\nUsers speak in a casual, text-like style, sometimes using shorthand, emotion, or context. Their answers may be short or meandering.\nEmbody the perspective of the user, making reasonable inferences or elaborations based on the Input Profile.\nEach User turn must include an 'extracted_values' dictionary that maps profile-relevant information surfaced in that turn.\nOutput the entire conversation and annotations as a structured JSON object.\nBelow are example TURNS that illustrate how users reflect profile values.\n[EXAMPLE TURN] {\"turn_id\": 0, \"Bot_Query\": \"Hello! I'm here to help you find nutrition resources in your area. How can I help?\", \"User_Response\": \"I need something to eat.\", \"extracted_values\": {\"resource\": [\"Meals\"]}}\n[EXAMPLE TURN] {\"turn_id\": 3, \"Bot_Query\": \"What details about age group and housing should I know?\", \"User_Response\": \"We have a kid in middle school. Unfortunately, we ran from our home.\", \"extracted_values\": {\"Age Group\": [\"school-aged children: 5 - 12 years\"], \"Housing\": [\"runaways\", \"near homeless\", \"homeless\"]}}\n[OUTPUT FORMAT REQUIREMENT]\nYou must output a single valid JSON object. Only use these profile keys in the 'extracted_values' dictionary for each turn:\n  resource, Disability, Housing, Income, Age Group, Health, Family Family Role.\nDo NOT add any other keys—even if the conversation mentions other topics.\nIf a turn does not refer to any profile-relevant key, 'extracted_values' should be empty or include the relevant keys with the value ['DEFAULT'].\nThe output should look like:\n{\n  \"conversation\": [\n    {\n      \"turn_id\": 0,\n      \"Bot_Query\": \"...\",\n      \"User_Response\": \"...\",\n      \"extracted_values\": {\n        \"<profile_key_1>\": [\"<value_1>\", \"<value_2>\"],\n        \"<profile_key_2>\": [\"<value_3>\"]\n      }\n    },\n    {\n      \"turn_id\": 1,\n      \"Bot_Query\": \"...\",\n      \"User_Response\": \"...\",\n      \"extracted_values\": {\"<profile_key_n>\": [\"DEFAULT\"]}\n    }\n  ]\n}\nOutput only valid JSON, and nothing else.\n\n\n[GENERATED CONVERSATION]\nInput Profile: {\"resource\": [\"Community Gardens\"], \"Disability\": [\"DEFAULT\"], \"Housing\": [\"DEFAULT\"], \"Income\": [\"low-income\"], \"Age Group\": [\"DEFAULT\"], \"Health\": [\"DEFAULT\"], \"Family Role\": [\"DEFAULT\"]}\nOutput: ",
+    "response": {
+      "conversation": [
+        {
+          "turn_id": 0,
+          "Bot_Query": "Hi there! I’m here to help you explore nutrition resources. What are you specifically looking for?",
+          "User_Response": "I'd love to find some community gardens nearby.",
+          "extracted_values": {
+            "resource": [
+              "Community Gardens"
+            ]
+          }
+        },
+        {
+          "turn_id": 1,
+          "Bot_Query": "Great choice! Community gardens are a fantastic way to access fresh produce. Can I ask if you're looking for any particular features in a garden, or are you open to all options?",
+          "User_Response": "I’m flexible! Just looking for something budget-friendly since I’m on a tight budget.",
+          "extracted_values": {
+            "Income": [
+              "low-income"
+            ]
+          }
+        },
+        {
+          "turn_id": 2,
+          "Bot_Query": "Absolutely, finding affordable options is important. Are you aware of any gardens in your local area, or do you need help with locations?",
+          "User_Response": "I don’t know of any, so some suggestions would be great!",
+          "extracted_values": {
+            "resource": [
+              "Community Gardens"
+            ]
+          }
+        },
+        {
+          "turn_id": 3,
+          "Bot_Query": "No problem, I can help with that. Before I search, is there anything else regarding your personal situation that might impact access to these resources?",
+          "User_Response": "Nope, that’s pretty much it for now.",
+          "extracted_values": {
+            "Disability": [
+              "DEFAULT"
+            ],
+            "Housing": [
+              "DEFAULT"
+            ],
+            "Age Group": [
+              "DEFAULT"
+            ],
+            "Health": [
+              "DEFAULT"
+            ],
+            "Family Role": [
+              "DEFAULT"
+            ]
+          }
+        }
+      ]
+    },
+    "model": "gpt-4o",
+    "promptFilterValues": "{\"resource\": [\"Community Gardens\"], \"Disability\": [\"DEFAULT\"], \"Housing\": [\"DEFAULT\"], \"Income\": [\"low-income\"], \"Age Group\": [\"DEFAULT\"], \"Health\": [\"DEFAULT\"], \"Role\": [\"DEFAULT\"]}"
+  }
+]

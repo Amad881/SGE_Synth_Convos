@@ -1,0 +1,6432 @@
+{
+  "resource: Help Pay for Food": [
+    [
+      "food stamps",
+      5
+    ],
+    [
+      "SNAP benefits",
+      5
+    ],
+    [
+      "EBT card",
+      4
+    ],
+    [
+      "WIC program",
+      4
+    ],
+    [
+      "food pantry",
+      5
+    ],
+    [
+      "meal vouchers",
+      3
+    ],
+    [
+      "free school meals",
+      5
+    ],
+    [
+      "community meals",
+      3
+    ],
+    [
+      "food bank",
+      5
+    ],
+    [
+      "nutrition assistance",
+      4
+    ],
+    [
+      "kids eat free",
+      4
+    ],
+    [
+      "lunch program",
+      5
+    ],
+    [
+      "backpack program",
+      3
+    ],
+    [
+      "emergency food assistance",
+      4
+    ],
+    [
+      "grocery vouchers",
+      3
+    ],
+    [
+      "supplemental nutrition",
+      4
+    ],
+    [
+      "double bucks",
+      2
+    ],
+    [
+      "happy hour meals",
+      1
+    ],
+    [
+      "commodity food program",
+      2
+    ],
+    [
+      "farmers market coupons",
+      3
+    ],
+    [
+      "food subsidy",
+      3
+    ],
+    [
+      "weekend food packs",
+      2
+    ],
+    [
+      "congregate meals",
+      2
+    ],
+    [
+      "brown bag program",
+      2
+    ],
+    [
+      "voucher program",
+      3
+    ],
+    [
+      "after-school snacks",
+      4
+    ],
+    [
+      "mobile food pantry",
+      3
+    ],
+    [
+      "elderly nutrition program",
+      2
+    ],
+    [
+      "healthy kids meals",
+      3
+    ],
+    [
+      "school breakfasts",
+      5
+    ],
+    [
+      "summer meal program",
+      4
+    ],
+    [
+      "child nutrition programs",
+      4
+    ],
+    [
+      "meals on wheels",
+      3
+    ],
+    [
+      "food allowance",
+      2
+    ],
+    [
+      "grocery stamps",
+      2
+    ],
+    [
+      "farm to family",
+      2
+    ],
+    [
+      "home-delivered meals",
+      3
+    ],
+    [
+      "PACT program",
+      1
+    ],
+    [
+      "WIC clinics",
+      4
+    ],
+    [
+      "tribal food distribution",
+      2
+    ],
+    [
+      "veggie RX",
+      1
+    ],
+    [
+      "school lunch debt relief",
+      2
+    ],
+    [
+      "community food distribution",
+      3
+    ],
+    [
+      "student pantry",
+      2
+    ],
+    [
+      "baby formula assistance",
+      3
+    ],
+    [
+      "senior meals",
+      3
+    ],
+    [
+      "fruit and veggie program",
+      2
+    ],
+    [
+      "charity dinners",
+      2
+    ],
+    [
+      "volunteer meal program",
+      2
+    ]
+  ],
+  "Health: diabetes": [
+    [
+      "blood sugar",
+      5
+    ],
+    [
+      "insulin",
+      5
+    ],
+    [
+      "hypoglycemia",
+      4
+    ],
+    [
+      "glucose monitoring",
+      4
+    ],
+    [
+      "type 1 diabetes",
+      5
+    ],
+    [
+      "type 2 diabetes",
+      5
+    ],
+    [
+      "gestational diabetes",
+      4
+    ],
+    [
+      "diabetic ketoacidosis",
+      3
+    ],
+    [
+      "A1C test",
+      4
+    ],
+    [
+      "carb counting",
+      4
+    ],
+    [
+      "diabetic neuropathy",
+      3
+    ],
+    [
+      "insulin resistance",
+      4
+    ],
+    [
+      "prediabetes",
+      4
+    ],
+    [
+      "continuous glucose monitor",
+      3
+    ],
+    [
+      "hemoglobin A1c",
+      3
+    ],
+    [
+      "blood glucose meter",
+      4
+    ],
+    [
+      "sugar levels",
+      5
+    ],
+    [
+      "pediatric endocrinologist",
+      3
+    ],
+    [
+      "insulin pump",
+      4
+    ],
+    [
+      "fingerstick",
+      4
+    ],
+    [
+      "high blood sugar",
+      5
+    ],
+    [
+      "low blood sugar",
+      5
+    ],
+    [
+      "basal insulin",
+      3
+    ],
+    [
+      "bolus insulin",
+      3
+    ],
+    [
+      "oral diabetes medication",
+      4
+    ],
+    [
+      "metformin",
+      4
+    ],
+    [
+      "hypoglycemic episode",
+      3
+    ],
+    [
+      "gestational",
+      3
+    ],
+    [
+      "dietitian",
+      4
+    ],
+    [
+      "nurse educator",
+      3
+    ],
+    [
+      "endocrinologist",
+      4
+    ],
+    [
+      "CGM",
+      3
+    ],
+    [
+      "fasting glucose",
+      3
+    ],
+    [
+      "pre-meal blood sugar",
+      3
+    ],
+    [
+      "post-meal blood sugar",
+      3
+    ],
+    [
+      "diabetes management",
+      4
+    ],
+    [
+      "juvenile diabetes",
+      4
+    ],
+    [
+      "sugar-free diet",
+      3
+    ],
+    [
+      "glycemic index",
+      3
+    ],
+    [
+      "diet and exercise",
+      4
+    ],
+    [
+      "sugar crash",
+      4
+    ],
+    [
+      "diabetes support group",
+      3
+    ],
+    [
+      "insulin shots",
+      4
+    ],
+    [
+      "diabetes-friendly snacks",
+      3
+    ],
+    [
+      "dawn phenomenon",
+      2
+    ],
+    [
+      "insulin to carb ratio",
+      3
+    ],
+    [
+      "fructosamine test",
+      2
+    ],
+    [
+      "Honeymoon Phase",
+      2
+    ]
+  ],
+  "Health: genetic disorder": [
+    [
+      "Down syndrome",
+      5
+    ],
+    [
+      "Cystic fibrosis",
+      5
+    ],
+    [
+      "Sickle cell anemia",
+      4
+    ],
+    [
+      "Fragile X syndrome",
+      4
+    ],
+    [
+      "Tay-Sachs disease",
+      3
+    ],
+    [
+      "Hemophilia",
+      4
+    ],
+    [
+      "Huntington's disease",
+      3
+    ],
+    [
+      "Marfan syndrome",
+      3
+    ],
+    [
+      "Muscular dystrophy",
+      4
+    ],
+    [
+      "Phenylketonuria (PKU)",
+      3
+    ],
+    [
+      "Thalassemia",
+      3
+    ],
+    [
+      "Duchenne muscular dystrophy",
+      4
+    ],
+    [
+      "Albinism",
+      3
+    ],
+    [
+      "Color blindness",
+      4
+    ],
+    [
+      "Neurofibromatosis",
+      2
+    ],
+    [
+      "Prader-Willi syndrome",
+      2
+    ],
+    [
+      "Noonan syndrome",
+      2
+    ],
+    [
+      "Angelman syndrome",
+      2
+    ],
+    [
+      "Williams syndrome",
+      2
+    ],
+    [
+      "Turner syndrome",
+      3
+    ],
+    [
+      "Klinefelter syndrome",
+      3
+    ],
+    [
+      "Angelman's",
+      2
+    ],
+    [
+      "Tuberous sclerosis",
+      2
+    ],
+    [
+      "Maple syrup urine disease",
+      1
+    ],
+    [
+      "Rett syndrome",
+      2
+    ],
+    [
+      "Progeria",
+      1
+    ],
+    [
+      "Alport syndrome",
+      1
+    ],
+    [
+      "Smith-Lemli-Opitz syndrome",
+      1
+    ],
+    [
+      "Li-Fraumeni syndrome",
+      1
+    ],
+    [
+      "Ehlers-Danlos syndrome",
+      3
+    ],
+    [
+      "Menkes disease",
+      2
+    ],
+    [
+      "Wilson's disease",
+      2
+    ],
+    [
+      "Spinal muscular atrophy",
+      3
+    ],
+    [
+      "Laurence-Moon-Biedl syndrome",
+      1
+    ],
+    [
+      "Ellis-van Creveld syndrome",
+      1
+    ],
+    [
+      "Gaucher disease",
+      2
+    ],
+    [
+      "Krabbe disease",
+      2
+    ],
+    [
+      "Maple syrup urine",
+      1
+    ],
+    [
+      "Wilson's",
+      2
+    ],
+    [
+      "Sotos syndrome",
+      1
+    ],
+    [
+      "Alagille syndrome",
+      2
+    ],
+    [
+      "Canavan disease",
+      1
+    ],
+    [
+      "Charcot-Marie-Tooth disease",
+      3
+    ],
+    [
+      "Hypochondroplasia",
+      1
+    ],
+    [
+      "Cri du chat syndrome",
+      1
+    ],
+    [
+      "Fabry disease",
+      2
+    ],
+    [
+      "Mitochondrial myopathy",
+      1
+    ],
+    [
+      "Thanatophoric dysplasia",
+      1
+    ],
+    [
+      "X-linked agammaglobulinemia",
+      1
+    ]
+  ],
+  "Role: dependents": [
+    [
+      "baby",
+      5
+    ],
+    [
+      "toddler",
+      5
+    ],
+    [
+      "infant",
+      5
+    ],
+    [
+      "child",
+      5
+    ],
+    [
+      "preteen",
+      4
+    ],
+    [
+      "teen",
+      5
+    ],
+    [
+      "teenager",
+      5
+    ],
+    [
+      "adolescent",
+      5
+    ],
+    [
+      "youth",
+      4
+    ],
+    [
+      "young adult",
+      4
+    ],
+    [
+      "kid",
+      5
+    ],
+    [
+      "newborn",
+      4
+    ],
+    [
+      "tween",
+      3
+    ],
+    [
+      "minor",
+      5
+    ],
+    [
+      "underage",
+      4
+    ],
+    [
+      "dependent",
+      5
+    ],
+    [
+      "student",
+      5
+    ],
+    [
+      "school-aged",
+      3
+    ],
+    [
+      "preschooler",
+      4
+    ],
+    [
+      "tike",
+      2
+    ],
+    [
+      "little one",
+      3
+    ],
+    [
+      "junior",
+      3
+    ],
+    [
+      "pupil",
+      3
+    ],
+    [
+      "grade-schooler",
+      3
+    ],
+    [
+      "high-schooler",
+      4
+    ],
+    [
+      "nursery-aged",
+      2
+    ],
+    [
+      "teenybopper",
+      2
+    ],
+    [
+      "primary schooler",
+      3
+    ],
+    [
+      "secondary schooler",
+      3
+    ],
+    [
+      "wunderkind",
+      1
+    ],
+    [
+      "youngster",
+      4
+    ],
+    [
+      "rug rat",
+      2
+    ],
+    [
+      "hooky player",
+      1
+    ],
+    [
+      "little rascal",
+      2
+    ],
+    [
+      "pre-pubescent",
+      2
+    ],
+    [
+      "middle schooler",
+      4
+    ],
+    [
+      "foster child",
+      3
+    ],
+    [
+      "stepchild",
+      4
+    ],
+    [
+      "special needs child",
+      3
+    ],
+    [
+      "ward",
+      4
+    ],
+    [
+      "orphan",
+      3
+    ],
+    [
+      "half-sibling",
+      3
+    ],
+    [
+      "godchild",
+      3
+    ],
+    [
+      "tutee",
+      2
+    ],
+    [
+      "charge",
+      2
+    ],
+    [
+      "prodigy",
+      2
+    ],
+    [
+      "tiniest tot",
+      1
+    ],
+    [
+      "young charge",
+      2
+    ],
+    [
+      "child prodigy",
+      2
+    ]
+  ],
+  "Disability: all disabilities": [
+    [
+      "autism",
+      5
+    ],
+    [
+      "down syndrome",
+      5
+    ],
+    [
+      "cerebral palsy",
+      4
+    ],
+    [
+      "ADHD",
+      5
+    ],
+    [
+      "intellectual disability",
+      4
+    ],
+    [
+      "developmental delay",
+      4
+    ],
+    [
+      "hearing impairment",
+      4
+    ],
+    [
+      "deafness",
+      4
+    ],
+    [
+      "vision impairment",
+      3
+    ],
+    [
+      "blindness",
+      3
+    ],
+    [
+      "learning disability",
+      5
+    ],
+    [
+      "dyslexia",
+      4
+    ],
+    [
+      "speech delay",
+      4
+    ],
+    [
+      "speech impairment",
+      3
+    ],
+    [
+      "mobility impairment",
+      3
+    ],
+    [
+      "wheelchair user",
+      3
+    ],
+    [
+      "spina bifida",
+      3
+    ],
+    [
+      "muscular dystrophy",
+      3
+    ],
+    [
+      "epilepsy",
+      4
+    ],
+    [
+      "seizure disorder",
+      4
+    ],
+    [
+      "mental health disorder",
+      4
+    ],
+    [
+      "PTSD",
+      3
+    ],
+    [
+      "OCD",
+      3
+    ],
+    [
+      "Tourette syndrome",
+      3
+    ],
+    [
+      "bipolar disorder",
+      3
+    ],
+    [
+      "anxiety disorder",
+      4
+    ],
+    [
+      "depression",
+      4
+    ],
+    [
+      "multisensory impairment",
+      2
+    ],
+    [
+      "rare genetic disorder",
+      2
+    ],
+    [
+      "fragile X syndrome",
+      2
+    ],
+    [
+      "Rett syndrome",
+      2
+    ],
+    [
+      "Prader-Willi syndrome",
+      2
+    ],
+    [
+      "Angelman syndrome",
+      2
+    ],
+    [
+      "Williams syndrome",
+      2
+    ],
+    [
+      "asthma",
+      4
+    ],
+    [
+      "diabetes",
+      4
+    ],
+    [
+      "food allergies",
+      4
+    ],
+    [
+      "anaphylaxis",
+      3
+    ],
+    [
+      "congenital heart defect",
+      2
+    ],
+    [
+      "chronic illness",
+      3
+    ],
+    [
+      "sickle cell disease",
+      3
+    ],
+    [
+      "cystic fibrosis",
+      3
+    ],
+    [
+      "autism spectrum disorder",
+      5
+    ],
+    [
+      "asperger's syndrome",
+      3
+    ],
+    [
+      "hearing loss",
+      4
+    ],
+    [
+      "pediatric disability",
+      3
+    ],
+    [
+      "neurodivergent",
+      3
+    ],
+    [
+      "high-functioning autism",
+      3
+    ],
+    [
+      "low-functioning autism",
+      2
+    ],
+    [
+      "special needs",
+      5
+    ]
+  ],
+  "Disability: visual impairment": [
+    [
+      "blindness",
+      5
+    ],
+    [
+      "low vision",
+      5
+    ],
+    [
+      "visual impairment",
+      4
+    ],
+    [
+      "legally blind",
+      4
+    ],
+    [
+      "color blindness",
+      3
+    ],
+    [
+      "partial sight",
+      3
+    ],
+    [
+      "night blindness",
+      3
+    ],
+    [
+      "tunnel vision",
+      3
+    ],
+    [
+      "central vision loss",
+      3
+    ],
+    [
+      "field loss",
+      3
+    ],
+    [
+      "light sensitivity",
+      3
+    ],
+    [
+      "retinal detachment",
+      2
+    ],
+    [
+      "glaucoma",
+      3
+    ],
+    [
+      "cataracts",
+      2
+    ],
+    [
+      "macular degeneration",
+      3
+    ],
+    [
+      "retinitis pigmentosa",
+      2
+    ],
+    [
+      "optical nerve damage",
+      2
+    ],
+    [
+      "strabismus",
+      2
+    ],
+    [
+      "nystagmus",
+      2
+    ],
+    [
+      "albinism",
+      2
+    ],
+    [
+      "ocular albinism",
+      2
+    ],
+    [
+      "diabetic retinopathy",
+      2
+    ],
+    [
+      "retinopathy of prematurity",
+      2
+    ],
+    [
+      "congenital blindness",
+      2
+    ],
+    [
+      "persian doll syndrome",
+      1
+    ],
+    [
+      "night sight issues",
+      2
+    ],
+    [
+      "seeing in the dark",
+      2
+    ],
+    [
+      "lazy eye",
+      3
+    ],
+    [
+      "cross eye",
+      2
+    ],
+    [
+      "vision problems",
+      4
+    ],
+    [
+      "sight issues",
+      3
+    ],
+    [
+      "double vision",
+      3
+    ],
+    [
+      "astigmatism",
+      3
+    ],
+    [
+      "vision impairment",
+      4
+    ],
+    [
+      "eye disorder",
+      3
+    ],
+    [
+      "ocular condition",
+      2
+    ],
+    [
+      "seeing impaired",
+      3
+    ],
+    [
+      "sight loss",
+      3
+    ],
+    [
+      "childhood blindness",
+      2
+    ],
+    [
+      "infant vision loss",
+      2
+    ],
+    [
+      "amblyopia",
+      2
+    ],
+    [
+      "depth perception issues",
+      2
+    ],
+    [
+      "trouble seeing",
+      4
+    ],
+    [
+      "eye surgery",
+      3
+    ],
+    [
+      "vision aid",
+      2
+    ],
+    [
+      "braille user",
+      2
+    ],
+    [
+      "screen magnifier user",
+      2
+    ],
+    [
+      "large print user",
+      2
+    ],
+    [
+      "voiceover user",
+      2
+    ]
+  ],
+  "Disability: limited mobility": [
+    [
+      "wheelchair user",
+      5
+    ],
+    [
+      "physical disability",
+      4
+    ],
+    [
+      "mobility impairment",
+      3
+    ],
+    [
+      "spinal cord injury",
+      3
+    ],
+    [
+      "cerebral palsy",
+      3
+    ],
+    [
+      "loss of limb",
+      2
+    ],
+    [
+      "amputee",
+      2
+    ],
+    [
+      "muscular dystrophy",
+      3
+    ],
+    [
+      "arthritis",
+      4
+    ],
+    [
+      "paraplegia",
+      3
+    ],
+    [
+      "quadriplegia",
+      3
+    ],
+    [
+      "multiple sclerosis",
+      3
+    ],
+    [
+      "poliomyelitis",
+      2
+    ],
+    [
+      "osteoarthritis",
+      3
+    ],
+    [
+      "rheumatoid arthritis",
+      3
+    ],
+    [
+      "hip dysplasia",
+      3
+    ],
+    [
+      "clubfoot",
+      2
+    ],
+    [
+      "ankylosing spondylitis",
+      2
+    ],
+    [
+      "motor dysfunction",
+      2
+    ],
+    [
+      "leg braces",
+      3
+    ],
+    [
+      "crutches",
+      3
+    ],
+    [
+      "scooter user",
+      2
+    ],
+    [
+      "cane user",
+      3
+    ],
+    [
+      "walker",
+      3
+    ],
+    [
+      "shortened limb",
+      2
+    ],
+    [
+      "gait abnormality",
+      2
+    ],
+    [
+      "bone fracture",
+      3
+    ],
+    [
+      "degenerative joint disease",
+      2
+    ],
+    [
+      "cystic fibrosis",
+      2
+    ],
+    [
+      "spina bifida",
+      3
+    ],
+    [
+      "developmental dysplasia",
+      2
+    ],
+    [
+      "hemiplegia",
+      2
+    ],
+    [
+      "orthopedic impairment",
+      3
+    ],
+    [
+      "ankle fusion",
+      2
+    ],
+    [
+      "frozen joint",
+      2
+    ],
+    [
+      "total knee arthroplasty",
+      2
+    ],
+    [
+      "hip replacement",
+      3
+    ],
+    [
+      "leg length discrepancy",
+      2
+    ],
+    [
+      "severe scoliosis",
+      3
+    ],
+    [
+      "myleopathy",
+      2
+    ],
+    [
+      "TBI with motor deficits",
+      2
+    ],
+    [
+      "Guillain-Barre Syndrome",
+      2
+    ],
+    [
+      "lumbar disc disease",
+      2
+    ],
+    [
+      "fibrous dysplasia",
+      2
+    ],
+    [
+      "muscle weakness",
+      3
+    ],
+    [
+      "joint pain",
+      4
+    ],
+    [
+      "uneven gait",
+      3
+    ],
+    [
+      "foot drop",
+      2
+    ],
+    [
+      "limp",
+      3
+    ]
+  ],
+  "resource: Community Gardens": [
+    [
+      "community garden",
+      5
+    ],
+    [
+      "urban farm",
+      4
+    ],
+    [
+      "public garden",
+      4
+    ],
+    [
+      "vegetable patch",
+      3
+    ],
+    [
+      "local garden",
+      4
+    ],
+    [
+      "allotment",
+      3
+    ],
+    [
+      "farmers cooperative",
+      3
+    ],
+    [
+      "shared garden space",
+      3
+    ],
+    [
+      "eco-park",
+      2
+    ],
+    [
+      "horticultural center",
+      2
+    ],
+    [
+      "garden plot",
+      3
+    ],
+    [
+      "edible park",
+      2
+    ],
+    [
+      "food forest",
+      2
+    ],
+    [
+      "green space",
+      3
+    ],
+    [
+      "agricultural hub",
+      2
+    ],
+    [
+      "neighborhood garden",
+      4
+    ],
+    [
+      "family garden",
+      3
+    ],
+    [
+      "veggie garden",
+      3
+    ],
+    [
+      "organic garden",
+      3
+    ],
+    [
+      "grow-your-own",
+      3
+    ],
+    [
+      "co-op garden",
+      3
+    ],
+    [
+      "community farm",
+      4
+    ],
+    [
+      "garden club",
+      3
+    ],
+    [
+      "kitchen garden",
+      3
+    ],
+    [
+      "youth garden",
+      3
+    ],
+    [
+      "school garden",
+      4
+    ],
+    [
+      "educational garden",
+      2
+    ],
+    [
+      "gardening space",
+      3
+    ],
+    [
+      "seed swap",
+      2
+    ],
+    [
+      "permaculture garden",
+      2
+    ],
+    [
+      "guerilla garden",
+      2
+    ],
+    [
+      "community grounds",
+      3
+    ],
+    [
+      "fruit orchard",
+      2
+    ],
+    [
+      "pocket park",
+      2
+    ],
+    [
+      "greenway",
+      2
+    ],
+    [
+      "food garden",
+      3
+    ],
+    [
+      "vegetable garden",
+      4
+    ],
+    [
+      "sustainable garden",
+      2
+    ],
+    [
+      "garden project",
+      3
+    ],
+    [
+      "public allotment",
+      2
+    ],
+    [
+      "urban green",
+      2
+    ],
+    [
+      "kids' gardening area",
+      3
+    ],
+    [
+      "eco-friendly garden",
+      2
+    ],
+    [
+      "plant nursery",
+      2
+    ],
+    [
+      "locavore space",
+      2
+    ],
+    [
+      "urban plot",
+      2
+    ],
+    [
+      "botanical garden",
+      3
+    ]
+  ],
+  "Disability: physical disability": [
+    [
+      "wheelchair user",
+      5
+    ],
+    [
+      "amputee",
+      4
+    ],
+    [
+      "mobility impairment",
+      4
+    ],
+    [
+      "spinal cord injury",
+      4
+    ],
+    [
+      "cerebral palsy",
+      4
+    ],
+    [
+      "muscular dystrophy",
+      3
+    ],
+    [
+      "multiple sclerosis",
+      3
+    ],
+    [
+      "paraplegia",
+      4
+    ],
+    [
+      "quadriplegia",
+      3
+    ],
+    [
+      "hemiplegia",
+      3
+    ],
+    [
+      "spina bifida",
+      4
+    ],
+    [
+      "polio survivor",
+      2
+    ],
+    [
+      "arthrogryposis",
+      2
+    ],
+    [
+      "limb difference",
+      3
+    ],
+    [
+      "clubfoot",
+      3
+    ],
+    [
+      "orthopedic impairment",
+      3
+    ],
+    [
+      "joint disorder",
+      3
+    ],
+    [
+      "muscle weakness",
+      4
+    ],
+    [
+      "post-polio syndrome",
+      2
+    ],
+    [
+      "ankylosing spondylitis",
+      2
+    ],
+    [
+      "osteogenesis imperfecta",
+      2
+    ],
+    [
+      "hypertonia",
+      2
+    ],
+    [
+      "hypotonia",
+      2
+    ],
+    [
+      "arthritic conditions",
+      3
+    ],
+    [
+      "Ehlers-Danlos syndrome",
+      2
+    ],
+    [
+      "chronic pain condition",
+      3
+    ],
+    [
+      "fibromyalgia",
+      3
+    ],
+    [
+      "scleroderma",
+      2
+    ],
+    [
+      "lymphedema",
+      2
+    ],
+    [
+      "myasthenia gravis",
+      2
+    ],
+    [
+      "dystonia",
+      2
+    ],
+    [
+      "physical immobility",
+      3
+    ],
+    [
+      "post-stroke physical limitations",
+      3
+    ],
+    [
+      "rheumatoid arthritis",
+      3
+    ],
+    [
+      "scoliosis",
+      3
+    ],
+    [
+      "dyspraxia",
+      3
+    ],
+    [
+      "CMT (Charcot-Marie-Tooth disease)",
+      2
+    ],
+    [
+      "torticollis",
+      2
+    ],
+    [
+      "microcephaly",
+      2
+    ],
+    [
+      "hydrocephalus",
+      2
+    ],
+    [
+      "spasticity",
+      3
+    ],
+    [
+      "physical deformity",
+      3
+    ],
+    [
+      "bone fracture recovery",
+      4
+    ],
+    [
+      "leg length discrepancy",
+      3
+    ],
+    [
+      "osteoarthritis",
+      3
+    ],
+    [
+      "foot drop",
+      3
+    ],
+    [
+      "prosthetics user",
+      4
+    ],
+    [
+      "knee/hip replacement",
+      4
+    ],
+    [
+      "contractures",
+      3
+    ]
+  ],
+  "Income: benefit recipients": [
+    [
+      "food stamps",
+      5
+    ],
+    [
+      "SNAP",
+      5
+    ],
+    [
+      "WIC",
+      5
+    ],
+    [
+      "Medicaid",
+      5
+    ],
+    [
+      "TANF",
+      5
+    ],
+    [
+      "SSI",
+      5
+    ],
+    [
+      "social security benefits",
+      4
+    ],
+    [
+      "unemployment benefits",
+      4
+    ],
+    [
+      "child tax credit",
+      4
+    ],
+    [
+      "housing assistance",
+      4
+    ],
+    [
+      "section 8",
+      4
+    ],
+    [
+      "EBT",
+      4
+    ],
+    [
+      "LIHEAP",
+      3
+    ],
+    [
+      "rental assistance",
+      4
+    ],
+    [
+      "utility assistance",
+      3
+    ],
+    [
+      "child care assistance",
+      4
+    ],
+    [
+      "school lunch program",
+      4
+    ],
+    [
+      "free lunch",
+      5
+    ],
+    [
+      "disability benefits",
+      3
+    ],
+    [
+      "veteran benefits",
+      3
+    ],
+    [
+      "pension",
+      2
+    ],
+    [
+      "workers' compensation",
+      3
+    ],
+    [
+      "public assistance",
+      3
+    ],
+    [
+      "general assistance",
+      2
+    ],
+    [
+      "cash aid",
+      3
+    ],
+    [
+      "bridge card",
+      2
+    ],
+    [
+      "CalFresh",
+      3
+    ],
+    [
+      "P-EBT",
+      2
+    ],
+    [
+      "student grants",
+      2
+    ],
+    [
+      "college aid",
+      2
+    ],
+    [
+      "HEAP",
+      2
+    ],
+    [
+      "financial aid",
+      3
+    ],
+    [
+      "income support",
+      3
+    ],
+    [
+      "jobseeker's allowance",
+      2
+    ],
+    [
+      "pandemic relief",
+      3
+    ],
+    [
+      "stimulus checks",
+      4
+    ],
+    [
+      "foster care payments",
+      3
+    ],
+    [
+      "child support",
+      4
+    ],
+    [
+      "alimony",
+      2
+    ],
+    [
+      "scholarships",
+      3
+    ],
+    [
+      "educational grants",
+      3
+    ],
+    [
+      "tribal assistance",
+      2
+    ],
+    [
+      "vouchers",
+      3
+    ],
+    [
+      "rental vouchers",
+      3
+    ],
+    [
+      "PEUC",
+      2
+    ],
+    [
+      "PUA",
+      3
+    ],
+    [
+      "FFCRA",
+      2
+    ],
+    [
+      "CARES Act benefits",
+      3
+    ]
+  ],
+  "Income: low-income": [
+    [
+      "poverty-line",
+      5
+    ],
+    [
+      "living paycheck to paycheck",
+      5
+    ],
+    [
+      "broke",
+      5
+    ],
+    [
+      "financial hardship",
+      4
+    ],
+    [
+      "struggling financially",
+      4
+    ],
+    [
+      "below minimum wage",
+      4
+    ],
+    [
+      "tight budget",
+      4
+    ],
+    [
+      "economically disadvantaged",
+      3
+    ],
+    [
+      "income-limited",
+      3
+    ],
+    [
+      "cash-strapped",
+      3
+    ],
+    [
+      "working poor",
+      3
+    ],
+    [
+      "low-wage workers",
+      3
+    ],
+    [
+      "fiscally challenged",
+      2
+    ],
+    [
+      "barely making ends meet",
+      3
+    ],
+    [
+      "fixed income",
+      3
+    ],
+    [
+      "underemployed",
+      3
+    ],
+    [
+      "financially insecure",
+      3
+    ],
+    [
+      "on a shoestring budget",
+      2
+    ],
+    [
+      "no savings",
+      4
+    ],
+    [
+      "paying the bills",
+      4
+    ],
+    [
+      "bottom quartile income",
+      2
+    ],
+    [
+      "subsistence living",
+      2
+    ],
+    [
+      "just getting by",
+      3
+    ],
+    [
+      "hand-to-mouth existence",
+      2
+    ],
+    [
+      "minimal income",
+      3
+    ],
+    [
+      "income-challenged",
+      2
+    ],
+    [
+      "bare minimum wage",
+      3
+    ],
+    [
+      "living below the means",
+      3
+    ],
+    [
+      "low SES (Socioeconomic Status)",
+      2
+    ],
+    [
+      "end-of-month crunch",
+      2
+    ],
+    [
+      "financially strapped",
+      3
+    ],
+    [
+      "relying on public assistance",
+      3
+    ],
+    [
+      "financially stretched",
+      3
+    ],
+    [
+      "struggling to manage expenses",
+      3
+    ],
+    [
+      "needing financial aid",
+      4
+    ],
+    [
+      "barely affording necessities",
+      3
+    ],
+    [
+      "under the poverty threshold",
+      2
+    ],
+    [
+      "needs-based income",
+      2
+    ],
+    [
+      "struggling to provide",
+      3
+    ],
+    [
+      "hard up",
+      3
+    ],
+    [
+      "low-earnings",
+      3
+    ],
+    [
+      "tight financial constraints",
+      3
+    ],
+    [
+      "fractional employment income",
+      2
+    ],
+    [
+      "budget-conscious",
+      2
+    ],
+    [
+      "lean living",
+      3
+    ],
+    [
+      "earning less than living wage",
+      2
+    ],
+    [
+      "charity-eligible income",
+      2
+    ],
+    [
+      "limited financial resources",
+      3
+    ],
+    [
+      "dependent on aid",
+      3
+    ]
+  ],
+  "resource: Meals": [
+    [
+      "food bank",
+      5
+    ],
+    [
+      "soup kitchen",
+      4
+    ],
+    [
+      "meal program",
+      4
+    ],
+    [
+      "free lunch",
+      5
+    ],
+    [
+      "SNAP benefits",
+      5
+    ],
+    [
+      "WIC program",
+      5
+    ],
+    [
+      "food pantry",
+      5
+    ],
+    [
+      "school lunch program",
+      5
+    ],
+    [
+      "breakfast club",
+      3
+    ],
+    [
+      "nutrition assistance",
+      4
+    ],
+    [
+      "senior meal service",
+      3
+    ],
+    [
+      "summer meal program",
+      4
+    ],
+    [
+      "emergency food assistance",
+      4
+    ],
+    [
+      "mobile food truck",
+      3
+    ],
+    [
+      "community dinners",
+      3
+    ],
+    [
+      "church meals",
+      3
+    ],
+    [
+      "hot meals",
+      4
+    ],
+    [
+      "food vouchers",
+      4
+    ],
+    [
+      "after-school snacks",
+      3
+    ],
+    [
+      "weekend backpack program",
+      3
+    ],
+    [
+      "healthy eating initiatives",
+      3
+    ],
+    [
+      "nutritional education",
+      3
+    ],
+    [
+      "family meal boxes",
+      3
+    ],
+    [
+      "meals on wheels",
+      4
+    ],
+    [
+      "holiday meal distribution",
+      3
+    ],
+    [
+      "kids' meal kits",
+      3
+    ],
+    [
+      "feeding programs",
+      4
+    ],
+    [
+      "free grocery delivery",
+      3
+    ],
+    [
+      "school breakfast",
+      4
+    ],
+    [
+      "community fridge",
+      3
+    ],
+    [
+      "baby formula support",
+      3
+    ],
+    [
+      "food stamps",
+      5
+    ],
+    [
+      "Cafeteria meals",
+      4
+    ],
+    [
+      "discount groceries",
+      3
+    ],
+    [
+      "meal planning support",
+      3
+    ],
+    [
+      "farmers market vouchers",
+      3
+    ],
+    [
+      "food co-op",
+      2
+    ],
+    [
+      "food rescue",
+      2
+    ],
+    [
+      "child nutrition services",
+      4
+    ],
+    [
+      "bulk food buying",
+      2
+    ],
+    [
+      "sack lunch program",
+      3
+    ],
+    [
+      "grub hubs",
+      2
+    ],
+    [
+      "pop-up pantries",
+      3
+    ],
+    [
+      "meal kits",
+      3
+    ],
+    [
+      "seniors' nutritional services",
+      2
+    ],
+    [
+      "hunger relief agencies",
+      3
+    ],
+    [
+      "commodity food distribution",
+      2
+    ],
+    [
+      "community garden produce",
+      2
+    ],
+    [
+      "culturally specific meals",
+      2
+    ]
+  ],
+  "Role: caregiver": [
+    [
+      "parent",
+      5
+    ],
+    [
+      "mom",
+      5
+    ],
+    [
+      "dad",
+      5
+    ],
+    [
+      "step-parent",
+      4
+    ],
+    [
+      "foster parent",
+      4
+    ],
+    [
+      "legal guardian",
+      4
+    ],
+    [
+      "grandparent",
+      4
+    ],
+    [
+      "aunt",
+      3
+    ],
+    [
+      "uncle",
+      3
+    ],
+    [
+      "big brother",
+      3
+    ],
+    [
+      "big sister",
+      3
+    ],
+    [
+      "older sibling",
+      3
+    ],
+    [
+      "nanny",
+      3
+    ],
+    [
+      "childcare worker",
+      3
+    ],
+    [
+      "babysitter",
+      3
+    ],
+    [
+      "au pair",
+      2
+    ],
+    [
+      "kinship caregiver",
+      3
+    ],
+    [
+      "adoptive parent",
+      4
+    ],
+    [
+      "house parent",
+      2
+    ],
+    [
+      "principal caregiver",
+      3
+    ],
+    [
+      "primary caregiver",
+      3
+    ],
+    [
+      "family caregiver",
+      3
+    ],
+    [
+      "live-in caregiver",
+      2
+    ],
+    [
+      "in-home caregiver",
+      2
+    ],
+    [
+      "daycare provider",
+      3
+    ],
+    [
+      "teacher's assistant",
+      2
+    ],
+    [
+      "school counselor",
+      2
+    ],
+    [
+      "nurse",
+      3
+    ],
+    [
+      "home visitor",
+      2
+    ],
+    [
+      "caseworker",
+      2
+    ],
+    [
+      "mentor",
+      3
+    ],
+    [
+      "life coach",
+      2
+    ],
+    [
+      "school nurse",
+      3
+    ],
+    [
+      "parenting coach",
+      2
+    ],
+    [
+      "elder sibling",
+      3
+    ],
+    [
+      "godparent",
+      2
+    ],
+    [
+      "special needs aide",
+      2
+    ],
+    [
+      "respite caregiver",
+      2
+    ],
+    [
+      "consistent caregiver",
+      2
+    ],
+    [
+      "child advocate",
+      2
+    ],
+    [
+      "family friend",
+      3
+    ],
+    [
+      "community care coordinator",
+      1
+    ],
+    [
+      "child welfare worker",
+      2
+    ],
+    [
+      "resource parent",
+      2
+    ],
+    [
+      "child and youth worker",
+      2
+    ],
+    [
+      "youth mentor",
+      2
+    ],
+    [
+      "tutor",
+      3
+    ],
+    [
+      "after-school care worker",
+      2
+    ],
+    [
+      "peer support worker",
+      2
+    ],
+    [
+      "emergency contact",
+      2
+    ]
+  ],
+  "Age Group: infants: 0 months - 1 year": [
+    [
+      "newborn",
+      5
+    ],
+    [
+      "infant",
+      5
+    ],
+    [
+      "baby",
+      5
+    ],
+    [
+      "neonatal",
+      4
+    ],
+    [
+      "toddler",
+      3
+    ],
+    [
+      "preemie",
+      3
+    ],
+    [
+      "one-year-old",
+      2
+    ],
+    [
+      "crib age",
+      2
+    ],
+    [
+      "tiny tot",
+      2
+    ],
+    [
+      "little one",
+      4
+    ],
+    [
+      "early years",
+      2
+    ],
+    [
+      "wee one",
+      2
+    ],
+    [
+      "diaper age",
+      1
+    ],
+    [
+      "milestone stage",
+      1
+    ],
+    [
+      "first year",
+      3
+    ],
+    [
+      "swaddle age",
+      1
+    ],
+    [
+      "binky age",
+      1
+    ],
+    [
+      "nursing infant",
+      3
+    ],
+    [
+      "bottle-fed stage",
+      2
+    ],
+    [
+      "sensory play age",
+      2
+    ],
+    [
+      "first 12 months",
+      2
+    ],
+    [
+      "breastfed baby",
+      3
+    ],
+    [
+      "sleeping through the night stage",
+      1
+    ],
+    [
+      "crawling stage",
+      2
+    ],
+    [
+      "teething age",
+      2
+    ],
+    [
+      "cradle age",
+      1
+    ],
+    [
+      "stroller stage",
+      1
+    ],
+    [
+      "nursery age",
+      2
+    ],
+    [
+      "highchair age",
+      1
+    ],
+    [
+      "mobile age",
+      1
+    ],
+    [
+      "babbling stage",
+      2
+    ],
+    [
+      "paci age",
+      1
+    ],
+    [
+      "colic stage",
+      1
+    ],
+    [
+      "first smiles",
+      2
+    ],
+    [
+      "cooing stage",
+      2
+    ],
+    [
+      "peek-a-boo age",
+      2
+    ],
+    [
+      "rattle age",
+      1
+    ],
+    [
+      "onesie age",
+      1
+    ],
+    [
+      "developmental stage",
+      3
+    ],
+    [
+      "growth spurt age",
+      2
+    ],
+    [
+      "immature immune system stage",
+      2
+    ],
+    [
+      "tummy time age",
+      2
+    ],
+    [
+      "clinging stage",
+      1
+    ],
+    [
+      "attachment stage",
+      2
+    ],
+    [
+      "bonding age",
+      3
+    ],
+    [
+      "first sounds",
+      1
+    ],
+    [
+      "new family member",
+      2
+    ]
+  ],
+  "Age Group: young adults: 20 - 30 years": [
+    [
+      "young adults",
+      5
+    ],
+    [
+      "twenties",
+      4
+    ],
+    [
+      "20s",
+      4
+    ],
+    [
+      "early adulthood",
+      3
+    ],
+    [
+      "college-aged",
+      3
+    ],
+    [
+      "post-teen",
+      2
+    ],
+    [
+      "millennials",
+      4
+    ],
+    [
+      "Gen Y",
+      2
+    ],
+    [
+      "newlyweds",
+      2
+    ],
+    [
+      "recent graduates",
+      3
+    ],
+    [
+      "first-time parents",
+      3
+    ],
+    [
+      "starting a family",
+      3
+    ],
+    [
+      "entry-level workers",
+      3
+    ],
+    [
+      "young professionals",
+      4
+    ],
+    [
+      "fresh out of college",
+      3
+    ],
+    [
+      "early career",
+      4
+    ],
+    [
+      "single and mingling",
+      2
+    ],
+    [
+      "under 30s",
+      3
+    ],
+    [
+      "urbanites",
+      2
+    ],
+    [
+      "job seekers",
+      3
+    ],
+    [
+      "renters",
+      3
+    ],
+    [
+      "starting out",
+      3
+    ],
+    [
+      "emerging adults",
+      2
+    ],
+    [
+      "life hacks",
+      2
+    ],
+    [
+      "side hustle",
+      2
+    ],
+    [
+      "gig economy",
+      2
+    ],
+    [
+      "student loans",
+      3
+    ],
+    [
+      "budgeting",
+      3
+    ],
+    [
+      "career building",
+      3
+    ],
+    [
+      "networking",
+      3
+    ],
+    [
+      "dating",
+      4
+    ],
+    [
+      "roommates",
+      3
+    ],
+    [
+      "apartment hunting",
+      3
+    ],
+    [
+      "early marriage",
+      2
+    ],
+    [
+      "DIY enthusiasts",
+      2
+    ],
+    [
+      "streaming subscribers",
+      3
+    ],
+    [
+      "social media savvy",
+      3
+    ],
+    [
+      "travelers",
+      3
+    ],
+    [
+      "internet natives",
+      2
+    ],
+    [
+      "influencers",
+      2
+    ],
+    [
+      "trendsetters",
+      2
+    ],
+    [
+      "startups",
+      3
+    ],
+    [
+      "entrepreneurs",
+      3
+    ],
+    [
+      "self-discovery",
+      3
+    ],
+    [
+      "work-life balance",
+      3
+    ],
+    [
+      "grad school",
+      3
+    ],
+    [
+      "career switching",
+      2
+    ],
+    [
+      "adulting",
+      3
+    ],
+    [
+      "first home buyers",
+      3
+    ]
+  ],
+  "Age Group: adults: 31 - 54 years": [
+    [
+      "adult",
+      5
+    ],
+    [
+      "grown-up",
+      4
+    ],
+    [
+      "middle-aged",
+      4
+    ],
+    [
+      "parents",
+      4
+    ],
+    [
+      "working-age",
+      3
+    ],
+    [
+      "midlife",
+      3
+    ],
+    [
+      "career-focused",
+      2
+    ],
+    [
+      "established adult",
+      2
+    ],
+    [
+      "prime years",
+      2
+    ],
+    [
+      "economic contributors",
+      1
+    ],
+    [
+      "young seniors",
+      1
+    ],
+    [
+      "mature adults",
+      3
+    ],
+    [
+      "early middle age",
+      3
+    ],
+    [
+      "40-something",
+      4
+    ],
+    [
+      "thirty-something",
+      4
+    ],
+    [
+      "adult family members",
+      3
+    ],
+    [
+      "settled adults",
+      2
+    ],
+    [
+      "breadwinners",
+      3
+    ],
+    [
+      "homeowners",
+      3
+    ],
+    [
+      "professionals",
+      4
+    ],
+    [
+      "business people",
+      3
+    ],
+    [
+      "mentors",
+      2
+    ],
+    [
+      "community leaders",
+      2
+    ],
+    [
+      "life experienced",
+      2
+    ],
+    [
+      "wise generation",
+      1
+    ],
+    [
+      "life coaches",
+      2
+    ],
+    [
+      "seasoned adults",
+      2
+    ],
+    [
+      "adult learners",
+      2
+    ],
+    [
+      "career changers",
+      2
+    ],
+    [
+      "established professionals",
+      2
+    ],
+    [
+      "active adults",
+      3
+    ],
+    [
+      "adults in their prime",
+      2
+    ],
+    [
+      "main earners",
+      3
+    ],
+    [
+      "household heads",
+      3
+    ],
+    [
+      "supervisees",
+      1
+    ],
+    [
+      "experienced workers",
+      3
+    ],
+    [
+      "family providers",
+      3
+    ],
+    [
+      "guides",
+      2
+    ],
+    [
+      "lead adults",
+      1
+    ],
+    [
+      "adult siblings",
+      2
+    ],
+    [
+      "adult children",
+      2
+    ],
+    [
+      "olders",
+      1
+    ],
+    [
+      "adult peers",
+      2
+    ],
+    [
+      "tribe builders",
+      1
+    ],
+    [
+      "advisors",
+      2
+    ]
+  ],
+  "Age Group: school-aged children: 5 - 12 years": [
+    [
+      "early elementary",
+      5
+    ],
+    [
+      "middle childhood",
+      4
+    ],
+    [
+      "juniors",
+      3
+    ],
+    [
+      "primary school",
+      5
+    ],
+    [
+      "first graders",
+      4
+    ],
+    [
+      "second graders",
+      4
+    ],
+    [
+      "third graders",
+      4
+    ],
+    [
+      "fourth graders",
+      4
+    ],
+    [
+      "fifth graders",
+      4
+    ],
+    [
+      "kids",
+      5
+    ],
+    [
+      "youngsters",
+      4
+    ],
+    [
+      "tweens",
+      4
+    ],
+    [
+      "grade schoolers",
+      5
+    ],
+    [
+      "intermediate school",
+      3
+    ],
+    [
+      "older children",
+      3
+    ],
+    [
+      "students",
+      5
+    ],
+    [
+      "school-age",
+      5
+    ],
+    [
+      "elementary students",
+      4
+    ],
+    [
+      "pre-teens",
+      3
+    ],
+    [
+      "kindergarteners",
+      2
+    ],
+    [
+      "lower primary",
+      3
+    ],
+    [
+      "upper primary",
+      3
+    ],
+    [
+      "lower elementary",
+      3
+    ],
+    [
+      "upper elementary",
+      3
+    ],
+    [
+      "prepubescent",
+      2
+    ],
+    [
+      "young kids",
+      4
+    ],
+    [
+      "school-aged kids",
+      5
+    ],
+    [
+      "K-5",
+      4
+    ],
+    [
+      "grades K-5",
+      3
+    ],
+    [
+      "childhood",
+      5
+    ],
+    [
+      "youth",
+      5
+    ],
+    [
+      "mini",
+      2
+    ],
+    [
+      "5-12 years",
+      5
+    ],
+    [
+      "5-11 years",
+      3
+    ],
+    [
+      "minors",
+      4
+    ],
+    [
+      "little ones",
+      3
+    ],
+    [
+      "rugrats",
+      2
+    ],
+    [
+      "students aged 5-12",
+      3
+    ],
+    [
+      "grades 1-5",
+      4
+    ],
+    [
+      "primary students",
+      3
+    ],
+    [
+      "young pupils",
+      3
+    ],
+    [
+      "mid-childhood",
+      2
+    ],
+    [
+      "preteenagers",
+      3
+    ],
+    [
+      "under-twelves",
+      2
+    ],
+    [
+      "school kids",
+      5
+    ],
+    [
+      "elementarians",
+      3
+    ],
+    [
+      "scholars",
+      2
+    ],
+    [
+      "wee ones",
+      2
+    ]
+  ],
+  "Age Group: toddlers: 1 - 2 years": [
+    [
+      "infants",
+      5
+    ],
+    [
+      "babies",
+      5
+    ],
+    [
+      "little ones",
+      4
+    ],
+    [
+      "newborns",
+      4
+    ],
+    [
+      "one-year-olds",
+      3
+    ],
+    [
+      "two-year-olds",
+      3
+    ],
+    [
+      "kids",
+      4
+    ],
+    [
+      "tiny tots",
+      3
+    ],
+    [
+      "youngsters",
+      3
+    ],
+    [
+      "pre-kindergarten",
+      2
+    ],
+    [
+      "early childhood",
+      4
+    ],
+    [
+      "wee ones",
+      2
+    ],
+    [
+      "preschoolers",
+      3
+    ],
+    [
+      "small kids",
+      4
+    ],
+    [
+      "first year",
+      3
+    ],
+    [
+      "second year",
+      3
+    ],
+    [
+      "munchkins",
+      2
+    ],
+    [
+      "littles",
+      3
+    ],
+    [
+      "junior toddlers",
+      2
+    ],
+    [
+      "toddlers",
+      5
+    ],
+    [
+      "pint-sized",
+      2
+    ],
+    [
+      "minis",
+      2
+    ],
+    [
+      "nursery age",
+      2
+    ],
+    [
+      "early toddlers",
+      3
+    ],
+    [
+      "cruisers",
+      2
+    ],
+    [
+      "crawlers",
+      3
+    ],
+    [
+      "wobblers",
+      2
+    ],
+    [
+      "ankle biters",
+      2
+    ],
+    [
+      "Diaper-aged",
+      2
+    ],
+    [
+      "little darlings",
+      2
+    ],
+    [
+      "itty-bitties",
+      2
+    ],
+    [
+      "playgroup age",
+      2
+    ],
+    [
+      "toddling infants",
+      3
+    ],
+    [
+      "sandbox age",
+      2
+    ],
+    [
+      "just walking",
+      3
+    ],
+    [
+      "sippy cup crowd",
+      2
+    ],
+    [
+      "half-pints",
+      2
+    ],
+    [
+      "rattle club",
+      2
+    ],
+    [
+      "pacifier crew",
+      2
+    ],
+    [
+      "stroller squad",
+      3
+    ],
+    [
+      "peek-a-boo players",
+      2
+    ],
+    [
+      "mini movers",
+      2
+    ],
+    [
+      "teething tots",
+      3
+    ],
+    [
+      "first steps group",
+      3
+    ],
+    [
+      "short stacks",
+      2
+    ],
+    [
+      "nap time warriors",
+      2
+    ],
+    [
+      "giggle gang",
+      2
+    ],
+    [
+      "building block brigade",
+      2
+    ],
+    [
+      "squeaky shoe wearers",
+      2
+    ]
+  ],
+  "Role: spouses": [
+    [
+      "husband",
+      5
+    ],
+    [
+      "wife",
+      5
+    ],
+    [
+      "partner",
+      4
+    ],
+    [
+      "spouse",
+      4
+    ],
+    [
+      "significant other",
+      3
+    ],
+    [
+      "companion",
+      3
+    ],
+    [
+      "better half",
+      3
+    ],
+    [
+      "soulmate",
+      3
+    ],
+    [
+      "hubby",
+      4
+    ],
+    [
+      "wifey",
+      4
+    ],
+    [
+      "life partner",
+      3
+    ],
+    [
+      "domestic partner",
+      4
+    ],
+    [
+      "mate",
+      2
+    ],
+    [
+      "consort",
+      2
+    ],
+    [
+      "better part",
+      1
+    ],
+    [
+      "boo",
+      2
+    ],
+    [
+      "bae",
+      2
+    ],
+    [
+      "other half",
+      3
+    ],
+    [
+      "roommate",
+      2
+    ],
+    [
+      "fiancé",
+      3
+    ],
+    [
+      "fiancée",
+      3
+    ],
+    [
+      "co-parent",
+      3
+    ],
+    [
+      "caretaker",
+      2
+    ],
+    [
+      "homemaker",
+      2
+    ],
+    [
+      "helpmeet",
+      1
+    ],
+    [
+      "life companion",
+      2
+    ],
+    [
+      "housewife",
+      3
+    ],
+    [
+      "stay-at-home dad",
+      3
+    ],
+    [
+      "stay-at-home mom",
+      3
+    ],
+    [
+      "civil partner",
+      3
+    ],
+    [
+      "marriage partner",
+      2
+    ],
+    [
+      "wedlock partner",
+      1
+    ],
+    [
+      "honey",
+      2
+    ],
+    [
+      "sweetheart",
+      2
+    ],
+    [
+      "beloved",
+      2
+    ],
+    [
+      "betrothed",
+      2
+    ],
+    [
+      "married partner",
+      2
+    ],
+    [
+      "union partner",
+      2
+    ],
+    [
+      "marital partner",
+      2
+    ],
+    [
+      "long-term partner",
+      3
+    ],
+    [
+      "domestic caretaker",
+      1
+    ],
+    [
+      "property sharer",
+      1
+    ],
+    [
+      "guardian",
+      2
+    ],
+    [
+      "domestic associate",
+      1
+    ],
+    [
+      "marital companion",
+      1
+    ],
+    [
+      "union companion",
+      1
+    ],
+    [
+      "domestic ally",
+      1
+    ],
+    [
+      "permanent plus-one",
+      1
+    ],
+    [
+      "close-knit better half",
+      1
+    ]
+  ],
+  "Role: parents": [
+    [
+      "mom",
+      5
+    ],
+    [
+      "dad",
+      5
+    ],
+    [
+      "mother",
+      4
+    ],
+    [
+      "father",
+      4
+    ],
+    [
+      "parent",
+      5
+    ],
+    [
+      "guardian",
+      4
+    ],
+    [
+      "stepmom",
+      3
+    ],
+    [
+      "stepdad",
+      3
+    ],
+    [
+      "stepmother",
+      2
+    ],
+    [
+      "stepfather",
+      2
+    ],
+    [
+      "foster mom",
+      3
+    ],
+    [
+      "foster dad",
+      3
+    ],
+    [
+      "foster parent",
+      3
+    ],
+    [
+      "grandma",
+      4
+    ],
+    [
+      "grandpa",
+      4
+    ],
+    [
+      "caregiver",
+      4
+    ],
+    [
+      "single mom",
+      4
+    ],
+    [
+      "single dad",
+      4
+    ],
+    [
+      "adoptive mom",
+      2
+    ],
+    [
+      "adoptive dad",
+      2
+    ],
+    [
+      "adoptive parent",
+      3
+    ],
+    [
+      "co-parent",
+      3
+    ],
+    [
+      "primary caregiver",
+      3
+    ],
+    [
+      "legal guardian",
+      4
+    ],
+    [
+      "stay-at-home mom",
+      3
+    ],
+    [
+      "stay-at-home dad",
+      3
+    ],
+    [
+      "working mom",
+      4
+    ],
+    [
+      "working dad",
+      4
+    ],
+    [
+      "mama",
+      4
+    ],
+    [
+      "papa",
+      4
+    ],
+    [
+      "pops",
+      3
+    ],
+    [
+      "old man",
+      3
+    ],
+    [
+      "old lady",
+      3
+    ],
+    [
+      "household head",
+      3
+    ],
+    [
+      "family leader",
+      3
+    ],
+    [
+      "birth mom",
+      3
+    ],
+    [
+      "birth dad",
+      3
+    ],
+    [
+      "hands-on parent",
+      2
+    ],
+    [
+      "helicopter parent",
+      2
+    ],
+    [
+      "soccer mom",
+      2
+    ],
+    [
+      "tiger mom",
+      2
+    ],
+    [
+      "breadwinner",
+      3
+    ],
+    [
+      "chief cook and bottle washer",
+      2
+    ],
+    [
+      "supermom",
+      3
+    ],
+    [
+      "superdad",
+      3
+    ],
+    [
+      "dual-income parent",
+      2
+    ],
+    [
+      "PTA mom",
+      2
+    ],
+    [
+      "PTA dad",
+      2
+    ],
+    [
+      "weekend dad",
+      2
+    ]
+  ],
+  "Health: all cancer types": [
+    [
+      "breast cancer",
+      5
+    ],
+    [
+      "lung cancer",
+      5
+    ],
+    [
+      "prostate cancer",
+      5
+    ],
+    [
+      "colorectal cancer",
+      5
+    ],
+    [
+      "skin cancer",
+      5
+    ],
+    [
+      "leukemia",
+      5
+    ],
+    [
+      "lymphoma",
+      5
+    ],
+    [
+      "ovarian cancer",
+      4
+    ],
+    [
+      "pancreatic cancer",
+      4
+    ],
+    [
+      "kidney cancer",
+      4
+    ],
+    [
+      "bladder cancer",
+      4
+    ],
+    [
+      "thyroid cancer",
+      4
+    ],
+    [
+      "liver cancer",
+      4
+    ],
+    [
+      "esophageal cancer",
+      3
+    ],
+    [
+      "stomach cancer",
+      3
+    ],
+    [
+      "cervical cancer",
+      3
+    ],
+    [
+      "head and neck cancer",
+      3
+    ],
+    [
+      "brain tumor",
+      4
+    ],
+    [
+      "bone cancer",
+      3
+    ],
+    [
+      "testicular cancer",
+      3
+    ],
+    [
+      "multiple myeloma",
+      3
+    ],
+    [
+      "melanoma",
+      4
+    ],
+    [
+      "mesothelioma",
+      2
+    ],
+    [
+      "endometrial cancer",
+      3
+    ],
+    [
+      "carcinoma",
+      4
+    ],
+    [
+      "sarcoma",
+      3
+    ],
+    [
+      "rhabdomyosarcoma",
+      2
+    ],
+    [
+      "neuroblastoma",
+      3
+    ],
+    [
+      "retinoblastoma",
+      3
+    ],
+    [
+      "Wilms' tumor",
+      2
+    ],
+    [
+      "Hodgkin's lymphoma",
+      3
+    ],
+    [
+      "non-Hodgkin's lymphoma",
+      3
+    ],
+    [
+      "germ cell tumor",
+      2
+    ],
+    [
+      "adrenal cancer",
+      2
+    ],
+    [
+      "bile duct cancer",
+      2
+    ],
+    [
+      "anal cancer",
+      2
+    ],
+    [
+      "vulvar cancer",
+      2
+    ],
+    [
+      "penile cancer",
+      2
+    ],
+    [
+      "small intestine cancer",
+      2
+    ],
+    [
+      "salivary gland cancer",
+      2
+    ],
+    [
+      "nasopharyngeal cancer",
+      2
+    ],
+    [
+      "gallbladder cancer",
+      2
+    ],
+    [
+      "uveal melanoma",
+      2
+    ],
+    [
+      "Kaposi's sarcoma",
+      2
+    ],
+    [
+      "sebaceous gland carcinoma",
+      1
+    ],
+    [
+      "Merkel cell carcinoma",
+      1
+    ],
+    [
+      "fallopian tube cancer",
+      1
+    ],
+    [
+      "peritoneal cancer",
+      1
+    ],
+    [
+      "chondrosarcoma",
+      1
+    ]
+  ],
+  "Health: pregnant": [
+    [
+      "prenatal care",
+      5
+    ],
+    [
+      "maternity services",
+      4
+    ],
+    [
+      "OB/GYN",
+      5
+    ],
+    [
+      "midwife",
+      4
+    ],
+    [
+      "doulas",
+      3
+    ],
+    [
+      "birthing classes",
+      3
+    ],
+    [
+      "ultrasound",
+      5
+    ],
+    [
+      "nutritional counseling",
+      3
+    ],
+    [
+      "childbirth education",
+      3
+    ],
+    [
+      "maternal health",
+      4
+    ],
+    [
+      "fetal monitoring",
+      3
+    ],
+    [
+      "pregnancy checkup",
+      4
+    ],
+    [
+      "antenatal care",
+      3
+    ],
+    [
+      "gestation",
+      3
+    ],
+    [
+      "birthing center",
+      3
+    ],
+    [
+      "perinatal services",
+      3
+    ],
+    [
+      "high-risk pregnancy care",
+      3
+    ],
+    [
+      "pregnancy testing",
+      4
+    ],
+    [
+      "pregnancy nutrition",
+      3
+    ],
+    [
+      "pregnancy wellness",
+      3
+    ],
+    [
+      "pregnancy support groups",
+      3
+    ],
+    [
+      "breastfeeding support",
+      4
+    ],
+    [
+      "labor and delivery",
+      4
+    ],
+    [
+      "postpartum care",
+      4
+    ],
+    [
+      "family planning",
+      4
+    ],
+    [
+      "prenatal vitamins",
+      4
+    ],
+    [
+      "infant care classes",
+      3
+    ],
+    [
+      "pregnancy hotline",
+      3
+    ],
+    [
+      "lactation consultant",
+      3
+    ],
+    [
+      "OB visits",
+      4
+    ],
+    [
+      "hypnobirthing",
+      2
+    ],
+    [
+      "pregnancy yoga",
+      3
+    ],
+    [
+      "maternal mental health",
+      3
+    ],
+    [
+      "neonatal care",
+      4
+    ],
+    [
+      "epidural",
+      4
+    ],
+    [
+      "pregnancy exercise",
+      3
+    ],
+    [
+      "natural birth",
+      3
+    ],
+    [
+      "water birth",
+      2
+    ],
+    [
+      "Lamaze classes",
+      3
+    ],
+    [
+      "C-section",
+      4
+    ],
+    [
+      "home birth",
+      3
+    ],
+    [
+      "hospital delivery",
+      4
+    ],
+    [
+      "Braxton Hicks",
+      3
+    ],
+    [
+      "gestational diabetes management",
+      3
+    ],
+    [
+      "kick counts",
+      3
+    ],
+    [
+      "pregnancy apps",
+      3
+    ],
+    [
+      "morning sickness management",
+      3
+    ],
+    [
+      "due date calculator",
+      4
+    ],
+    [
+      "fetal development tracking",
+      3
+    ]
+  ],
+  "Health: chronic illness": [
+    [
+      "asthma",
+      5
+    ],
+    [
+      "diabetes",
+      5
+    ],
+    [
+      "epilepsy",
+      4
+    ],
+    [
+      "cystic fibrosis",
+      3
+    ],
+    [
+      "arthritis",
+      4
+    ],
+    [
+      "sickle cell disease",
+      3
+    ],
+    [
+      "Crohn's disease",
+      3
+    ],
+    [
+      "multiple sclerosis",
+      2
+    ],
+    [
+      "lupus",
+      3
+    ],
+    [
+      "celiac disease",
+      3
+    ],
+    [
+      "fibromyalgia",
+      3
+    ],
+    [
+      "hepatitis",
+      4
+    ],
+    [
+      "COPD",
+      3
+    ],
+    [
+      "HIV",
+      4
+    ],
+    [
+      "congenital heart defect",
+      3
+    ],
+    [
+      "chronic kidney disease",
+      3
+    ],
+    [
+      "cerebral palsy",
+      3
+    ],
+    [
+      "muscular dystrophy",
+      3
+    ],
+    [
+      "hemophilia",
+      2
+    ],
+    [
+      "Parkinson's disease",
+      2
+    ],
+    [
+      "spinal muscular atrophy",
+      2
+    ],
+    [
+      "autism spectrum disorder",
+      4
+    ],
+    [
+      "Down syndrome",
+      3
+    ],
+    [
+      "behavioral disorders",
+      3
+    ],
+    [
+      "allergies",
+      5
+    ],
+    [
+      "heart disease",
+      4
+    ],
+    [
+      "cancer",
+      5
+    ],
+    [
+      "hypertension",
+      4
+    ],
+    [
+      "bipolar disorder",
+      3
+    ],
+    [
+      "schizophrenia",
+      2
+    ],
+    [
+      "Alzheimer's disease",
+      3
+    ],
+    [
+      "amyotrophic lateral sclerosis",
+      2
+    ],
+    [
+      "irritable bowel syndrome",
+      3
+    ],
+    [
+      "Gaucher disease",
+      1
+    ],
+    [
+      "phenylketonuria",
+      2
+    ],
+    [
+      "thalassemia",
+      2
+    ],
+    [
+      "Tourette syndrome",
+      2
+    ],
+    [
+      "tuberculosis",
+      3
+    ],
+    [
+      "genetic disorders",
+      3
+    ],
+    [
+      "obesity",
+      4
+    ],
+    [
+      "acid reflux",
+      3
+    ],
+    [
+      "autoimmune diseases",
+      3
+    ],
+    [
+      "eczema",
+      4
+    ],
+    [
+      "psoriasis",
+      3
+    ],
+    [
+      "chronic fatigue syndrome",
+      3
+    ],
+    [
+      "Lyme disease",
+      3
+    ],
+    [
+      "endometriosis",
+      3
+    ],
+    [
+      "dyslexia",
+      3
+    ],
+    [
+      "ADHD",
+      4
+    ]
+  ],
+  "resource: Food Delivery": [
+    [
+      "food pantry",
+      5
+    ],
+    [
+      "meals on wheels",
+      4
+    ],
+    [
+      "grocery delivery",
+      4
+    ],
+    [
+      "food bank",
+      5
+    ],
+    [
+      "community kitchen",
+      4
+    ],
+    [
+      "mobile food unit",
+      3
+    ],
+    [
+      "free lunch program",
+      4
+    ],
+    [
+      "soup kitchen",
+      5
+    ],
+    [
+      "SNAP benefits",
+      5
+    ],
+    [
+      "emergency food assistance",
+      4
+    ],
+    [
+      "food stamps",
+      5
+    ],
+    [
+      "kids meal program",
+      3
+    ],
+    [
+      "backpack program",
+      3
+    ],
+    [
+      "commodity supplemental food program",
+      3
+    ],
+    [
+      "senior meal delivery",
+      3
+    ],
+    [
+      "WIC",
+      5
+    ],
+    [
+      "nutrition assistance program",
+      4
+    ],
+    [
+      "home-delivered meals",
+      3
+    ],
+    [
+      "after school meal program",
+      3
+    ],
+    [
+      "holiday food boxes",
+      2
+    ],
+    [
+      "restaurant meal program",
+      2
+    ],
+    [
+      "pop-up pantry",
+      2
+    ],
+    [
+      "early childhood meal program",
+      3
+    ],
+    [
+      "nonprofit food delivery",
+      2
+    ],
+    [
+      "church food pantry",
+      3
+    ],
+    [
+      "school meal program",
+      5
+    ],
+    [
+      "reduced-price school lunch",
+      4
+    ],
+    [
+      "vegetable box delivery",
+      2
+    ],
+    [
+      "farmers market vouchers",
+      3
+    ],
+    [
+      "grocery vouchers",
+      3
+    ],
+    [
+      "ethnic food pantry",
+      2
+    ],
+    [
+      "plant-based meal delivery",
+      1
+    ],
+    [
+      "pet food assistance",
+      2
+    ],
+    [
+      "vegan meal service",
+      1
+    ],
+    [
+      "meal kit delivery",
+      3
+    ],
+    [
+      "food rescue service",
+      2
+    ],
+    [
+      "food co-op delivery",
+      2
+    ],
+    [
+      "community fridge access",
+      2
+    ],
+    [
+      "organic meal delivery",
+      1
+    ],
+    [
+      "school breakfast program",
+      4
+    ],
+    [
+      "emergency grocery delivery",
+      3
+    ],
+    [
+      "child and adult care food program",
+      3
+    ],
+    [
+      "supplemental nutrition program",
+      3
+    ],
+    [
+      "free breakfast club",
+      3
+    ],
+    [
+      "hunger relief organization",
+      3
+    ],
+    [
+      "meal share program",
+      2
+    ],
+    [
+      "contactless food delivery",
+      3
+    ],
+    [
+      "nutrition education service",
+      2
+    ],
+    [
+      "charitable food site",
+      3
+    ],
+    [
+      "produce on wheels",
+      2
+    ]
+  ],
+  "resource: Food Pantry": [
+    [
+      "food bank",
+      5
+    ],
+    [
+      "soup kitchen",
+      5
+    ],
+    [
+      "community fridge",
+      4
+    ],
+    [
+      "meal distribution",
+      3
+    ],
+    [
+      "food giveaway",
+      4
+    ],
+    [
+      "emergency food assistance",
+      3
+    ],
+    [
+      "free groceries",
+      4
+    ],
+    [
+      "food closet",
+      3
+    ],
+    [
+      "pantry program",
+      3
+    ],
+    [
+      "charitable food program",
+      3
+    ],
+    [
+      "hunger relief",
+      3
+    ],
+    [
+      "kids meal program",
+      4
+    ],
+    [
+      "youth snack program",
+      3
+    ],
+    [
+      "backpack lunches",
+      4
+    ],
+    [
+      "child nutrition services",
+      3
+    ],
+    [
+      "community meals",
+      4
+    ],
+    [
+      "school lunch assistance",
+      5
+    ],
+    [
+      "family food box",
+      3
+    ],
+    [
+      "nutritional support",
+      3
+    ],
+    [
+      "summer meals program",
+      4
+    ],
+    [
+      "neighborhood groceries",
+      2
+    ],
+    [
+      "urban food hub",
+      2
+    ],
+    [
+      "surplus food distribution",
+      2
+    ],
+    [
+      "church pantry",
+      4
+    ],
+    [
+      "holiday meal service",
+      3
+    ],
+    [
+      "food shelf",
+      4
+    ],
+    [
+      "vegetable co-op",
+      2
+    ],
+    [
+      "shared produce",
+      3
+    ],
+    [
+      "farmers market vouchers",
+      3
+    ],
+    [
+      "mobile food pantry",
+      4
+    ],
+    [
+      "weekend food bags",
+      4
+    ],
+    [
+      "after-school meals",
+      4
+    ],
+    [
+      "holiday food baskets",
+      3
+    ],
+    [
+      "nutritious meal planning",
+      2
+    ],
+    [
+      "grocery delivery service",
+      3
+    ],
+    [
+      "infant formula distribution",
+      3
+    ],
+    [
+      "toddler meal kits",
+      3
+    ],
+    [
+      "low-cost groceries",
+      3
+    ],
+    [
+      "nutrition education",
+      2
+    ],
+    [
+      "sack lunches",
+      4
+    ],
+    [
+      "daily bread program",
+      2
+    ],
+    [
+      "meals on wheels",
+      3
+    ],
+    [
+      "community support agriculture",
+      2
+    ],
+    [
+      "pop-up pantry",
+      3
+    ],
+    [
+      "drop-in dinner",
+      3
+    ],
+    [
+      "food outreach",
+      3
+    ],
+    [
+      "program for hungry kids",
+      3
+    ],
+    [
+      "family kitchen",
+      3
+    ],
+    [
+      "food cooperatives",
+      2
+    ]
+  ],
+  "Housing: near homeless": [
+    [
+      "couch surfing",
+      3
+    ],
+    [
+      "sofa hopping",
+      4
+    ],
+    [
+      "temporarily staying with friends",
+      3
+    ],
+    [
+      "living with relatives",
+      4
+    ],
+    [
+      "short-term rental assistance",
+      2
+    ],
+    [
+      "eviction notice",
+      5
+    ],
+    [
+      "rent help",
+      5
+    ],
+    [
+      "utility assistance",
+      4
+    ],
+    [
+      "motel vouchers",
+      3
+    ],
+    [
+      "emergency shelter",
+      5
+    ],
+    [
+      "transitional housing",
+      4
+    ],
+    [
+      "affordable housing application",
+      3
+    ],
+    [
+      "housing aid",
+      4
+    ],
+    [
+      "housing support services",
+      3
+    ],
+    [
+      "crisis accommodation",
+      2
+    ],
+    [
+      "rooming house",
+      3
+    ],
+    [
+      "boarding house",
+      3
+    ],
+    [
+      "rent arrears assistance",
+      2
+    ],
+    [
+      "legal aid for housing",
+      3
+    ],
+    [
+      "housing stabilization services",
+      2
+    ],
+    [
+      "family shelter",
+      5
+    ],
+    [
+      "day center services",
+      2
+    ],
+    [
+      "relocation assistance",
+      3
+    ],
+    [
+      "financial counseling",
+      3
+    ],
+    [
+      "supportive housing",
+      3
+    ],
+    [
+      "overnight shelter",
+      4
+    ],
+    [
+      "youth shelter",
+      4
+    ],
+    [
+      "housing counseling",
+      4
+    ],
+    [
+      "landlord mediation",
+      2
+    ],
+    [
+      "temporary accommodation",
+      3
+    ],
+    [
+      "no-fault eviction assistance",
+      2
+    ],
+    [
+      "homeless prevention",
+      4
+    ],
+    [
+      "section 8 waiting list",
+      3
+    ],
+    [
+      "rapid rehousing",
+      3
+    ],
+    [
+      "foreclosure assistance",
+      2
+    ],
+    [
+      "tenancy advice",
+      3
+    ],
+    [
+      "safe parking programs",
+      2
+    ],
+    [
+      "rental deposit assistance",
+      3
+    ],
+    [
+      "moving cost assistance",
+      2
+    ],
+    [
+      "housing advocacy",
+      3
+    ],
+    [
+      "community housing organizations",
+      3
+    ],
+    [
+      "housing voucher",
+      4
+    ],
+    [
+      "low-income housing",
+      5
+    ],
+    [
+      "housing benefit",
+      3
+    ],
+    [
+      "family housing support",
+      3
+    ],
+    [
+      "housing network services",
+      2
+    ],
+    [
+      "subsidized housing",
+      4
+    ],
+    [
+      "housing crisis hotline",
+      4
+    ],
+    [
+      "emergency rental assistance",
+      4
+    ],
+    [
+      "tenants' rights groups",
+      3
+    ]
+  ],
+  "Housing: runaways": [
+    [
+      "youth shelter",
+      5
+    ],
+    [
+      "teen housing",
+      4
+    ],
+    [
+      "emergency shelter",
+      5
+    ],
+    [
+      "transitional living program",
+      4
+    ],
+    [
+      "crisis accommodation",
+      3
+    ],
+    [
+      "safe house",
+      4
+    ],
+    [
+      "youth crisis center",
+      4
+    ],
+    [
+      "street outreach",
+      3
+    ],
+    [
+      "host home program",
+      3
+    ],
+    [
+      "short-term shelter",
+      4
+    ],
+    [
+      "drop-in center",
+      4
+    ],
+    [
+      "survival services",
+      3
+    ],
+    [
+      "supportive housing",
+      3
+    ],
+    [
+      "day resource center",
+      3
+    ],
+    [
+      "homeless youth center",
+      4
+    ],
+    [
+      "respite care",
+      3
+    ],
+    [
+      "aftercare program",
+      2
+    ],
+    [
+      "youth hostel",
+      2
+    ],
+    [
+      "bed program",
+      4
+    ],
+    [
+      "runaway shelter",
+      5
+    ],
+    [
+      "emergency housing",
+      5
+    ],
+    [
+      "housing for displaced youth",
+      3
+    ],
+    [
+      "youth refuge",
+      3
+    ],
+    [
+      "temporary accommodation",
+      3
+    ],
+    [
+      "housing navigator",
+      3
+    ],
+    [
+      "family reunification services",
+      2
+    ],
+    [
+      "housing assistance",
+      4
+    ],
+    [
+      "street-based services",
+      3
+    ],
+    [
+      "runaway program",
+      4
+    ],
+    [
+      "youth advocacy",
+      3
+    ],
+    [
+      "reconnection services",
+      2
+    ],
+    [
+      "youth housing aid",
+      3
+    ],
+    [
+      "independent living program",
+      3
+    ],
+    [
+      "youth services organization",
+      3
+    ],
+    [
+      "crisis intervention",
+      3
+    ],
+    [
+      "housing hotline",
+      3
+    ],
+    [
+      "crash pad",
+      2
+    ],
+    [
+      "emergency placement",
+      4
+    ],
+    [
+      "youth haven",
+      3
+    ],
+    [
+      "pediatric housing support",
+      2
+    ],
+    [
+      "youth outreach service",
+      3
+    ],
+    [
+      "housing crisis line",
+      3
+    ],
+    [
+      "youth emergency service",
+      4
+    ],
+    [
+      "street work program",
+      2
+    ],
+    [
+      "youth support network",
+      3
+    ],
+    [
+      "housing stability service",
+      2
+    ],
+    [
+      "runaway hotline",
+      4
+    ],
+    [
+      "adolescent shelter",
+      4
+    ],
+    [
+      "youth care facility",
+      3
+    ],
+    [
+      "crisis shelter",
+      4
+    ]
+  ],
+  "Age Group: teens: 13 - 19 years": [
+    [
+      "teen",
+      5
+    ],
+    [
+      "teenager",
+      5
+    ],
+    [
+      "adolescent",
+      4
+    ],
+    [
+      "young adult",
+      3
+    ],
+    [
+      "youth",
+      4
+    ],
+    [
+      "high schooler",
+      4
+    ],
+    [
+      "junior high",
+      3
+    ],
+    [
+      "senior high",
+      3
+    ],
+    [
+      "secondary school student",
+      2
+    ],
+    [
+      "middle teen",
+      3
+    ],
+    [
+      "late teen",
+      2
+    ],
+    [
+      "minor",
+      3
+    ],
+    [
+      "pubescent",
+      2
+    ],
+    [
+      "teenybopper",
+      2
+    ],
+    [
+      "mid-teen",
+      3
+    ],
+    [
+      "high school junior",
+      2
+    ],
+    [
+      "high school senior",
+      2
+    ],
+    [
+      "grade 8",
+      3
+    ],
+    [
+      "grade 9",
+      3
+    ],
+    [
+      "grade 10",
+      3
+    ],
+    [
+      "grade 11",
+      3
+    ],
+    [
+      "grade 12",
+      3
+    ],
+    [
+      "freshman",
+      4
+    ],
+    [
+      "sophomore",
+      4
+    ],
+    [
+      "junior",
+      4
+    ],
+    [
+      "senior",
+      4
+    ],
+    [
+      "millennial",
+      2
+    ],
+    [
+      "instagram generation",
+      2
+    ],
+    [
+      "zoomers",
+      2
+    ],
+    [
+      "kiddos",
+      3
+    ],
+    [
+      "preteens",
+      2
+    ],
+    [
+      "tweens",
+      3
+    ],
+    [
+      "kids",
+      4
+    ],
+    [
+      "high school kid",
+      3
+    ],
+    [
+      "college-bound",
+      3
+    ],
+    [
+      "youthful",
+      2
+    ],
+    [
+      "emerging adult",
+      2
+    ],
+    [
+      "16-year-old",
+      3
+    ],
+    [
+      "17-year-old",
+      3
+    ],
+    [
+      "18-year-old",
+      3
+    ],
+    [
+      "19-year-old",
+      2
+    ],
+    [
+      "gen Z",
+      4
+    ],
+    [
+      "teenage",
+      4
+    ],
+    [
+      "high school graduate",
+      3
+    ],
+    [
+      "graduating teen",
+      2
+    ],
+    [
+      "high school dropout",
+      3
+    ],
+    [
+      "teen dropout",
+      2
+    ],
+    [
+      "school leaver",
+      2
+    ],
+    [
+      "underage",
+      3
+    ]
+  ],
+  "Age Group: preschoolers: 3 - 4 years": [
+    [
+      "early childhood",
+      5
+    ],
+    [
+      "preschoolers",
+      5
+    ],
+    [
+      "toddlers",
+      4
+    ],
+    [
+      "little ones",
+      4
+    ],
+    [
+      "pre-kindergarten",
+      4
+    ],
+    [
+      "pre-k",
+      4
+    ],
+    [
+      "nursery school age",
+      3
+    ],
+    [
+      "young children",
+      4
+    ],
+    [
+      "kiddos",
+      3
+    ],
+    [
+      "playgroup age",
+      3
+    ],
+    [
+      "three-year-olds",
+      3
+    ],
+    [
+      "four-year-olds",
+      3
+    ],
+    [
+      "pre-school age",
+      3
+    ],
+    [
+      "early years",
+      3
+    ],
+    [
+      "junior kindergarten",
+      2
+    ],
+    [
+      "tiny tots",
+      2
+    ],
+    [
+      "mini munchkins",
+      2
+    ],
+    [
+      "wee ones",
+      2
+    ],
+    [
+      "kids under five",
+      3
+    ],
+    [
+      "beginner learners",
+      1
+    ],
+    [
+      "sproglets",
+      1
+    ],
+    [
+      "early starters",
+      2
+    ],
+    [
+      "pipsqueaks",
+      1
+    ],
+    [
+      "children 3 to 4",
+      4
+    ],
+    [
+      "preschool age",
+      4
+    ],
+    [
+      "prekindergarten",
+      3
+    ],
+    [
+      "early learners",
+      3
+    ],
+    [
+      "preschool kids",
+      4
+    ],
+    [
+      "early childhood education age",
+      3
+    ],
+    [
+      "early schoolers",
+      2
+    ],
+    [
+      "childcare age",
+      3
+    ],
+    [
+      "first learners",
+      2
+    ],
+    [
+      "pre-grade schoolers",
+      2
+    ],
+    [
+      "before school age",
+      2
+    ],
+    [
+      "barely school-age",
+      1
+    ],
+    [
+      "littlies",
+      2
+    ],
+    [
+      "kindergarten juniors",
+      2
+    ],
+    [
+      "early birds",
+      2
+    ],
+    [
+      "finger painters",
+      1
+    ],
+    [
+      "rising preschoolers",
+      2
+    ],
+    [
+      "dress-up age",
+      1
+    ],
+    [
+      "mini humans",
+      2
+    ],
+    [
+      "sandcastle builders",
+      1
+    ],
+    [
+      "juice box crowd",
+      1
+    ],
+    [
+      "coloring club",
+      1
+    ],
+    [
+      "stuffed animal fans",
+      1
+    ],
+    [
+      "fairytale listeners",
+      1
+    ]
+  ],
+  "Age Group: children: 2 - 12 years": [
+    [
+      "toddler",
+      5
+    ],
+    [
+      "preschooler",
+      5
+    ],
+    [
+      "kindergartener",
+      4
+    ],
+    [
+      "elementary schooler",
+      3
+    ],
+    [
+      "grade schooler",
+      4
+    ],
+    [
+      "young child",
+      5
+    ],
+    [
+      "child",
+      5
+    ],
+    [
+      "kid",
+      5
+    ],
+    [
+      "little one",
+      4
+    ],
+    [
+      "school-age child",
+      4
+    ],
+    [
+      "tween",
+      3
+    ],
+    [
+      "preteen",
+      3
+    ],
+    [
+      "juvenile",
+      2
+    ],
+    [
+      "youth",
+      4
+    ],
+    [
+      "school kid",
+      4
+    ],
+    [
+      "early childhood",
+      3
+    ],
+    [
+      "middle childhood",
+      2
+    ],
+    [
+      "primary schooler",
+      3
+    ],
+    [
+      "lower primary",
+      2
+    ],
+    [
+      "upper primary",
+      2
+    ],
+    [
+      "first grader",
+      3
+    ],
+    [
+      "second grader",
+      3
+    ],
+    [
+      "third grader",
+      3
+    ],
+    [
+      "fourth grader",
+      3
+    ],
+    [
+      "fifth grader",
+      3
+    ],
+    [
+      "sixth grader",
+      3
+    ],
+    [
+      "infant",
+      1
+    ],
+    [
+      "baby",
+      1
+    ],
+    [
+      "tike",
+      3
+    ],
+    [
+      "minors",
+      3
+    ],
+    [
+      "runts",
+      2
+    ],
+    [
+      "nippers",
+      2
+    ],
+    [
+      "kiddos",
+      4
+    ],
+    [
+      "lad",
+      3
+    ],
+    [
+      "lass",
+      2
+    ],
+    [
+      "youngster",
+      3
+    ],
+    [
+      "ankle-biter",
+      2
+    ],
+    [
+      "rugrat",
+      3
+    ],
+    [
+      "playgroup",
+      2
+    ],
+    [
+      "cherub",
+      2
+    ],
+    [
+      "whippersnapper",
+      2
+    ],
+    [
+      "plucky kid",
+      3
+    ],
+    [
+      "out-of-school",
+      1
+    ],
+    [
+      "junior",
+      3
+    ],
+    [
+      "half-pint",
+      1
+    ],
+    [
+      "tyke",
+      3
+    ],
+    [
+      "peewee",
+      2
+    ],
+    [
+      "petite one",
+      1
+    ],
+    [
+      "sprout",
+      2
+    ],
+    [
+      "munchkin",
+      3
+    ]
+  ],
+  "Age Group: seniors: 55 years+": [
+    [
+      "seniors",
+      5
+    ],
+    [
+      "older adults",
+      4
+    ],
+    [
+      "elderly",
+      4
+    ],
+    [
+      "55 and older",
+      3
+    ],
+    [
+      "55+",
+      3
+    ],
+    [
+      "retirees",
+      3
+    ],
+    [
+      "senior citizens",
+      4
+    ],
+    [
+      "golden agers",
+      2
+    ],
+    [
+      "baby boomers",
+      3
+    ],
+    [
+      "mature adults",
+      2
+    ],
+    [
+      "aging population",
+      2
+    ],
+    [
+      "post-retirement",
+      2
+    ],
+    [
+      "elder generation",
+      2
+    ],
+    [
+      "grey generation",
+      1
+    ],
+    [
+      "veteran generation",
+      1
+    ],
+    [
+      "silver surfers",
+      1
+    ],
+    [
+      "seasoned citizens",
+      1
+    ],
+    [
+      "golden years",
+      2
+    ],
+    [
+      "wise generation",
+      1
+    ],
+    [
+      "age of wisdom",
+      1
+    ],
+    [
+      "elders",
+      3
+    ],
+    [
+      "grandparents",
+      4
+    ],
+    [
+      "65 and over",
+      3
+    ],
+    [
+      "60s folks",
+      2
+    ],
+    [
+      "70s crowd",
+      2
+    ],
+    [
+      "octogenarians",
+      1
+    ],
+    [
+      "nonagenarians",
+      1
+    ],
+    [
+      "centenarians",
+      1
+    ],
+    [
+      "old age",
+      3
+    ],
+    [
+      "geriatric",
+      2
+    ]
+  ],
+  "Housing: homeless": [
+    [
+      "shelter",
+      5
+    ],
+    [
+      "temporary housing",
+      4
+    ],
+    [
+      "emergency shelter",
+      5
+    ],
+    [
+      "transitional housing",
+      4
+    ],
+    [
+      "homeless shelter",
+      5
+    ],
+    [
+      "drop-in center",
+      3
+    ],
+    [
+      "warming center",
+      3
+    ],
+    [
+      "family shelter",
+      4
+    ],
+    [
+      "men's shelter",
+      3
+    ],
+    [
+      "women's shelter",
+      4
+    ],
+    [
+      "youth shelter",
+      3
+    ],
+    [
+      "day shelter",
+      3
+    ],
+    [
+      "street outreach",
+      3
+    ],
+    [
+      "bridge housing",
+      2
+    ],
+    [
+      "low-barrier shelter",
+      2
+    ],
+    [
+      "safe haven",
+      2
+    ],
+    [
+      "public housing",
+      4
+    ],
+    [
+      "supportive housing",
+      3
+    ],
+    [
+      "housing first",
+      2
+    ],
+    [
+      "affordable housing",
+      4
+    ],
+    [
+      "room-and-board",
+      2
+    ],
+    [
+      "overnight shelter",
+      4
+    ],
+    [
+      "crash pad",
+      3
+    ],
+    [
+      "housing stabilization",
+      2
+    ],
+    [
+      "permanent supportive housing",
+      3
+    ],
+    [
+      "emergency hotel vouchers",
+      2
+    ],
+    [
+      "motel vouchers",
+      3
+    ],
+    [
+      "housing program",
+      3
+    ],
+    [
+      "urban camping",
+      1
+    ],
+    [
+      "tent city",
+      2
+    ],
+    [
+      "sober living facility",
+      2
+    ],
+    [
+      "runaway shelter",
+      2
+    ],
+    [
+      "housing assistance",
+      4
+    ],
+    [
+      "home sharing",
+      2
+    ],
+    [
+      "boarding house",
+      3
+    ],
+    [
+      "battered women's shelter",
+      3
+    ],
+    [
+      "domestic violence shelter",
+      4
+    ],
+    [
+      "safe house",
+      2
+    ],
+    [
+      "crisis housing",
+      3
+    ],
+    [
+      "youth hostels",
+      2
+    ],
+    [
+      "housing navigation",
+      2
+    ],
+    [
+      "refuge",
+      2
+    ],
+    [
+      "crash space",
+      1
+    ],
+    [
+      "housing crisis line",
+      2
+    ],
+    [
+      "housing waitlist",
+      3
+    ],
+    [
+      "single room occupancy (SRO)",
+      2
+    ],
+    [
+      "tiny homes for homeless",
+      2
+    ],
+    [
+      "community housing",
+      2
+    ],
+    [
+      "housing resource center",
+      3
+    ]
+  ],
+  "resource: Nutrition Education": [
+    [
+      "healthy eating workshops",
+      4
+    ],
+    [
+      "cooking classes",
+      4
+    ],
+    [
+      "meal prep tips",
+      3
+    ],
+    [
+      "nutrition counseling",
+      4
+    ],
+    [
+      "dietitian advice",
+      3
+    ],
+    [
+      "food pyramid lessons",
+      2
+    ],
+    [
+      "portion control tips",
+      3
+    ],
+    [
+      "snack smart guides",
+      2
+    ],
+    [
+      "picky eater solutions",
+      3
+    ],
+    [
+      "grocery shopping on a budget",
+      3
+    ],
+    [
+      "parenting nutrition tips",
+      3
+    ],
+    [
+      "community gardens",
+      2
+    ],
+    [
+      "school lunch education",
+      3
+    ],
+    [
+      "vitamin basics",
+      3
+    ],
+    [
+      "food label reading",
+      4
+    ],
+    [
+      "eating healthy on SNAP",
+      3
+    ],
+    [
+      "infant nutrition",
+      3
+    ],
+    [
+      "toddler meals",
+      4
+    ],
+    [
+      "allergy-aware diets",
+      3
+    ],
+    [
+      "meal planning workshops",
+      3
+    ],
+    [
+      "nutrition for pregnant women",
+      3
+    ],
+    [
+      "family nutrition webinars",
+      2
+    ],
+    [
+      "mindful eating",
+      2
+    ],
+    [
+      "superfoods education",
+      2
+    ],
+    [
+      "farmers market tours",
+      2
+    ],
+    [
+      "child obesity prevention",
+      3
+    ],
+    [
+      "youth sports nutrition",
+      2
+    ],
+    [
+      "breastfeeding tips",
+      4
+    ],
+    [
+      "nutrient-rich recipes",
+      4
+    ],
+    [
+      "culturally aware nutrition",
+      2
+    ],
+    [
+      "school wellness programs",
+      3
+    ],
+    [
+      "calories counting advice",
+      3
+    ],
+    [
+      "diet myths and facts",
+      2
+    ],
+    [
+      "food allergens info",
+      3
+    ],
+    [
+      "seasonal eating",
+      2
+    ],
+    [
+      "hydration importance",
+      2
+    ],
+    [
+      "organic vs. non-organic",
+      2
+    ],
+    [
+      "intuitive eating",
+      2
+    ],
+    [
+      "vegan and vegetarian info",
+      3
+    ],
+    [
+      "gluten-free guides",
+      3
+    ],
+    [
+      "meal kits education",
+      1
+    ],
+    [
+      "energy-boosting foods",
+      3
+    ],
+    [
+      "baby-led weaning",
+      2
+    ],
+    [
+      "sustainable eating",
+      2
+    ],
+    [
+      "nutrition apps and tools",
+      2
+    ],
+    [
+      "emergency food education",
+      2
+    ],
+    [
+      "fussy eater workshops",
+      3
+    ],
+    [
+      "digestion health",
+      2
+    ],
+    [
+      "holistic nutrition advice",
+      2
+    ]
+  ]
+}

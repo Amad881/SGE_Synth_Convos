@@ -1,0 +1,277 @@
+[
+  {
+    "convo_id": 0,
+    "prompt": "You are simulating realistic conversations between a User and a Virtual Assistant that supports nutrition-related resources and programs.\nThe Virtual Assistant (Bot) asks questions to help match users to programs. The User responds based on their needs and background.\nYou are tasked with generating a full 3–6 turn conversation between Bot and User, grounded in the provided Input Profile.\nThe User's responses should reflect their unique situation and constraints as described in the profile. Be specific and natural.\nUsers speak in a casual, text-like style, sometimes using shorthand, emotion, or context. Their answers may be short or meandering.\nEmbody the perspective of the user in America, making reasonable inferences or elaborations based on the Input Profile.\nEach User turn must include an 'extracted_values' dictionary that maps profile-relevant information surfaced in that turn.\nOutput the entire conversation and annotations as a structured JSON object.\nBelow are example CONVERSATIONS that illustrate how users respond in context using their profile.\n[EXAMPLE CONVERSATION 0]\nInput Profile: {\"resource\": [\"Food Pantry\"], \"Disability\": [\"limited mobility\"], \"Housing\": [\"DEFAULT\"], \"Health\": [\"DEFAULT\"], \"Income\": [\"DEFAULT\"]}\nOutput: [{\"turn_id\": 0, \"Bot_Query\": \"Hello! I'm here to help you find nutrition resources in your area. How can I help?\", \"User_Response\": \"I want to find a food pantry that has stuff for people other than adults.\", \"extracted_values\": {\"resource\": [\"Food Pantry\"], \"Age Group\": [\"school-aged children: 5 - 12 years\", \"infants: 0 months - 1 year\", \"teens: 13 - 19 years\", \"toddlers: 1 - 2 years\", \"seniors: 55 years+\"], \"Family Role\": [\"DEFAULT\"]}}, {\"turn_id\": 1, \"Bot_Query\": \"What details about disability should I know?\", \"User_Response\": \"I was diagnosed with paraplegia.\", \"extracted_values\": {\"Disability\": [\"limited mobility\"]}}, {\"turn_id\": 2, \"Bot_Query\": \"Do you have important considerations regarding housing and health and income?\", \"User_Response\": \"I have a home, and I'm healthy otherwise. I brought cash with me.\", \"extracted_values\": {\"Housing\": [\"DEFAULT\"], \"Health\": [\"DEFAULT\"], \"Income\": [\"DEFAULT\"]}}]\n[EXAMPLE CONVERSATION 1]\nInput Profile: {\"resource\": [\"Community Gardens\"], \"Disability\": [\"limited mobility\"], \"Housing\": [\"DEFAULT\"], \"Family Role\": [\"parents\"], \"Income\": [\"low-income\"], \"Age Group\": [\"preschoolers: 3 - 4 years\", \"young adults: 20 - 30 years\", \"children: 2 - 12 years\"], \"Health\": [\"DEFAULT\"]}\nOutput: [{\"turn_id\": 0, \"Bot_Query\": \"Hello! I'm here to help you find nutrition resources in your area. How can I help?\", \"User_Response\": \"What can I do around here?\", \"extracted_values\": {\"resource\": [\"Community Gardens\"]}}, {\"turn_id\": 1, \"Bot_Query\": \"Do you have important considerations regarding disability and housing and role?\", \"User_Response\": \"I have a cane. My kids are visiting this week.\", \"extracted_values\": {\"Disability\": [\"limited mobility\"], \"Housing\": [\"DEFAULT\"], \"Family Role\": [\"parents\"]}}, {\"turn_id\": 2, \"Bot_Query\": \"Can you tell me more about income?\", \"User_Response\": \"I'm tight on my budget.\", \"extracted_values\": {\"Income\": [\"low-income\"]}}, {\"turn_id\": 3, \"Bot_Query\": \"What details about age group and health should I know?\", \"User_Response\": \"I have a young daughter and an adult son coming over.\", \"extracted_values\": {\"Age Group\": [\"preschoolers: 3 - 4 years\", \"young adults: 20 - 30 years\", \"children: 2 - 12 years\"], \"Health\": [\"DEFAULT\"]}}]\n[EXAMPLE CONVERSATION 2]\nInput Profile: {\"resource\": [\"Nutrition Education\"], \"Disability\": [\"limited mobility\", \"visual impairment\"], \"Health\": [\"DEFAULT\"], \"Family Role\": [\"DEFAULT\"], \"Income\": [\"low-income\"], \"Age Group\": [\"infants: 0 months - 1 year\", \"teens: 13 - 19 years\", \"adults: 31 - 54 years\"]}\nOutput: [{\"turn_id\": 0, \"Bot_Query\": \"Hello! I'm here to help you find nutrition resources in your area. How can I help?\", \"User_Response\": \"What should I eat if I don't have a kitchen?\", \"extracted_values\": {\"resource\": [\"Nutrition Education\"], \"Housing\": [\"homeless\", \"runaways\", \"near homeless\"]}}, {\"turn_id\": 1, \"Bot_Query\": \"Can you tell me more about disability and health and role?\", \"User_Response\": \"I can't see well. I haven't gone to the doctor yet and I live alone.\", \"extracted_values\": {\"Disability\": [\"limited mobility\", \"visual impairment\"], \"Health\": [\"DEFAULT\"], \"Family Role\": [\"DEFAULT\"]}}, {\"turn_id\": 2, \"Bot_Query\": \"Do you have important considerations regarding income?\", \"User_Response\": \"I'm living paycheck to paycheck.\", \"extracted_values\": {\"Income\": [\"low-income\"]}}, {\"turn_id\": 3, \"Bot_Query\": \"Do you have important considerations regarding age group?\", \"User_Response\": \"I'm pregnant.\", \"extracted_values\": {\"Age Group\": [\"infants: 0 months - 1 year\", \"teens: 13 - 19 years\", \"adults: 31 - 54 years\"]}}]\n[OUTPUT FORMAT REQUIREMENT]\nYou must output a single valid JSON object. Only use these profile keys in the 'extracted_values' dictionary for each turn:\n  resource, Disability, Housing, Income, Age Group, Health, Family Family Role.\nDo NOT add any other keys—even if the conversation mentions other topics.\nIf a turn does not refer to any profile-relevant key, 'extracted_values' should be empty or include the relevant keys with the value ['DEFAULT'].\nThe output should look like:\n{\n  \"conversation\": [\n    {\n      \"turn_id\": 0,\n      \"Bot_Query\": \"...\",\n      \"User_Response\": \"...\",\n      \"extracted_values\": {\n        \"<profile_key_1>\": [\"<value_1>\", \"<value_2>\"],\n        \"<profile_key_2>\": [\"<value_3>\"]\n      }\n    },\n    {\n      \"turn_id\": 1,\n      \"Bot_Query\": \"...\",\n      \"User_Response\": \"...\",\n      \"extracted_values\": {\"<profile_key_n>\": [\"DEFAULT\"]}\n    }\n  ]\n}\nOutput only valid JSON, and nothing else.\n\n\n[GENERATED CONVERSATION]\nInput Profile: {\"resource\": [\"Help Pay for Food\"], \"Disability\": [\"physical disability\"], \"Health\": [\"all cancer types\", \"chronic illness\", \"pregnant\", \"diabetes\"], \"Family Role\": [\"spouses\"], \"Income\": [\"benefit recipients\"]}\nOutput: ",
+    "response": {
+      "conversation": [
+        {
+          "turn_id": 0,
+          "Bot_Query": "Hello! I'm here to help you find nutrition resources. What are you looking for today?",
+          "User_Response": "I need some help with food expenses. Things have been tough lately.",
+          "extracted_values": {
+            "resource": [
+              "Help Pay for Food"
+            ]
+          }
+        },
+        {
+          "turn_id": 1,
+          "Bot_Query": "Got it. Do you have any specific health or disability concerns you'd like me to consider?",
+          "User_Response": "Yeah, I've been managing diabetes and I also got a physical disability.",
+          "extracted_values": {
+            "Disability": [
+              "physical disability"
+            ],
+            "Health": [
+              "diabetes"
+            ]
+          }
+        },
+        {
+          "turn_id": 2,
+          "Bot_Query": "Thanks for sharing. Can you tell me if you're part of any benefits programs or have a particular family role?",
+          "User_Response": "I'm on some benefits right now, and I'm married.",
+          "extracted_values": {
+            "Income": [
+              "benefit recipients"
+            ],
+            "Family Role": [
+              "spouses"
+            ]
+          }
+        },
+        {
+          "turn_id": 3,
+          "Bot_Query": "Do you have any other health conditions I should be aware of?",
+          "User_Response": "Well, I'm also pregnant, so that adds some complications.",
+          "extracted_values": {
+            "Health": [
+              "pregnant"
+            ]
+          }
+        }
+      ]
+    },
+    "model": "gpt-4o",
+    "promptFilterValues": "{\"resource\": [\"Help Pay for Food\"], \"Disability\": [\"physical disability\"], \"Health\": [\"all cancer types\", \"chronic illness\", \"pregnant\", \"diabetes\"], \"Role\": [\"spouses\"], \"Income\": [\"benefit recipients\"]}"
+  },
+  {
+    "convo_id": 1,
+    "prompt": "You are simulating realistic conversations between a User and a Virtual Assistant that supports nutrition-related resources and programs.\nThe Virtual Assistant (Bot) asks questions to help match users to programs. The User responds based on their needs and background.\nYou are tasked with generating a full 3–6 turn conversation between Bot and User, grounded in the provided Input Profile.\nThe User's responses should reflect their unique situation and constraints as described in the profile. Be specific and natural.\nUsers speak in a casual, text-like style, sometimes using shorthand, emotion, or context. Their answers may be short or meandering.\nEmbody the perspective of the user in America, making reasonable inferences or elaborations based on the Input Profile.\nEach User turn must include an 'extracted_values' dictionary that maps profile-relevant information surfaced in that turn.\nOutput the entire conversation and annotations as a structured JSON object.\nBelow are example CONVERSATIONS that illustrate how users respond in context using their profile.\n[EXAMPLE CONVERSATION 0]\nInput Profile: {\"resource\": [\"Community Gardens\"], \"Age Group\": [\"DEFAULT\"], \"Housing\": [\"runaways\"], \"Health\": [\"DEFAULT\"], \"Disability\": [\"visual impairment\"], \"Family Role\": [\"dependents\"]}\nOutput: [{\"turn_id\": 0, \"Bot_Query\": \"Hello! I'm here to help you find nutrition resources in your area. How can I help?\", \"User_Response\": \"I want a place to relax that's affordable.\", \"extracted_values\": {\"resource\": [\"Community Gardens\"], \"Income\": [\"low-income\"]}}, {\"turn_id\": 1, \"Bot_Query\": \"What details about age group and housing and health should I know?\", \"User_Response\": \"A place that's open for all ages. I don't have medical issues, but I had to leave the house.\", \"extracted_values\": {\"Age Group\": [\"DEFAULT\"], \"Housing\": [\"runaways\"], \"Health\": [\"DEFAULT\"]}}, {\"turn_id\": 2, \"Bot_Query\": \"Do you have important considerations regarding disability and role?\", \"User_Response\": \"I have vision problems and children at home.\", \"extracted_values\": {\"Disability\": [\"visual impairment\"], \"Family Role\": [\"dependents\"]}}]\n[EXAMPLE CONVERSATION 1]\nInput Profile: {\"resource\": [\"Meals\"], \"Income\": [\"low-income\"], \"Disability\": [\"visual impairment\"], \"Housing\": [\"DEFAULT\"], \"Family Role\": [\"caregiver\", \"dependents\"]}\nOutput: [{\"turn_id\": 0, \"Bot_Query\": \"Hello! I'm here to help you find nutrition resources in your area. How can I help?\", \"User_Response\": \"I am hungry. I want to skip my age, but I have type 2 diabetes.\", \"extracted_values\": {\"resource\": [\"Meals\"], \"Age Group\": [\"DEFAULT\"], \"Health\": [\"chronic illness\"]}}, {\"turn_id\": 1, \"Bot_Query\": \"What details about income should I know?\", \"User_Response\": \"We are very poor.\", \"extracted_values\": {\"Income\": [\"low-income\"]}}, {\"turn_id\": 2, \"Bot_Query\": \"Do you have important considerations regarding disability and housing and role?\", \"User_Response\": \"I have AMD which worsens my sight. I have to take care of my kids, but we aren't at the house.\", \"extracted_values\": {\"Disability\": [\"visual impairment\"], \"Housing\": [\"DEFAULT\"], \"Family Role\": [\"caregiver\", \"dependents\"]}}]\n[EXAMPLE CONVERSATION 2]\nInput Profile: {\"resource\": [\"Meals\"], \"Family Role\": [\"DEFAULT\"], \"Income\": [\"low-income\"], \"Age Group\": [\"DEFAULT\"], \"Disability\": [\"visual impairment\"], \"Health\": [\"all cancer types\", \"diabetes\"]}\nOutput: [{\"turn_id\": 0, \"Bot_Query\": \"Hello! I'm here to help you find nutrition resources in your area. How can I help?\", \"User_Response\": \"need some food\", \"extracted_values\": {\"resource\": [\"Meals\"], \"Housing\": [\"DEFAULT\"]}}, {\"turn_id\": 1, \"Bot_Query\": \"Do you have important considerations regarding role and income?\", \"User_Response\": \"I am a single parent and do not have money to buy food\", \"extracted_values\": {\"Family Role\": [\"DEFAULT\"], \"Income\": [\"low-income\"]}}, {\"turn_id\": 2, \"Bot_Query\": \"Can you tell me more about age group and disability and health?\", \"User_Response\": \"my kid is blind and diagnosed with leukimia. She also recently diagnosed with diabetes\", \"extracted_values\": {\"Age Group\": [\"DEFAULT\"], \"Disability\": [\"visual impairment\"], \"Health\": [\"all cancer types\", \"diabetes\"]}}]\n[OUTPUT FORMAT REQUIREMENT]\nYou must output a single valid JSON object. Only use these profile keys in the 'extracted_values' dictionary for each turn:\n  resource, Disability, Housing, Income, Age Group, Health, Family Family Role.\nDo NOT add any other keys—even if the conversation mentions other topics.\nIf a turn does not refer to any profile-relevant key, 'extracted_values' should be empty or include the relevant keys with the value ['DEFAULT'].\nThe output should look like:\n{\n  \"conversation\": [\n    {\n      \"turn_id\": 0,\n      \"Bot_Query\": \"...\",\n      \"User_Response\": \"...\",\n      \"extracted_values\": {\n        \"<profile_key_1>\": [\"<value_1>\", \"<value_2>\"],\n        \"<profile_key_2>\": [\"<value_3>\"]\n      }\n    },\n    {\n      \"turn_id\": 1,\n      \"Bot_Query\": \"...\",\n      \"User_Response\": \"...\",\n      \"extracted_values\": {\"<profile_key_n>\": [\"DEFAULT\"]}\n    }\n  ]\n}\nOutput only valid JSON, and nothing else.\n\n\n[GENERATED CONVERSATION]\nInput Profile: {\"resource\": [\"Meals\"], \"Age Group\": [\"infants: 0 months - 1 year\", \"seniors: 55 years+\"], \"Housing\": [\"homeless\"], \"Health\": [\"DEFAULT\"], \"Income\": [\"DEFAULT\"]}\nOutput: ",
+    "response": {
+      "conversation": [
+        {
+          "turn_id": 0,
+          "Bot_Query": "Hello! I'm here to help you find nutrition resources in your area. How can I help?",
+          "User_Response": "Hi, I'm looking for meal programs for both my baby and my dad.",
+          "extracted_values": {
+            "resource": [
+              "Meals"
+            ],
+            "Age Group": [
+              "infants: 0 months - 1 year",
+              "seniors: 55 years+"
+            ]
+          }
+        },
+        {
+          "turn_id": 1,
+          "Bot_Query": "Could you tell me more about your housing and health situation?",
+          "User_Response": "We're currently without a stable place to stay, so any help with meals would be great. Health-wise, nothing major right now.",
+          "extracted_values": {
+            "Housing": [
+              "homeless"
+            ],
+            "Health": [
+              "DEFAULT"
+            ]
+          }
+        },
+        {
+          "turn_id": 2,
+          "Bot_Query": "Is there any specific income information that would be helpful for us to know?",
+          "User_Response": "Honestly, we're getting by with whatever we can right now. Income isn't really stable.",
+          "extracted_values": {
+            "Income": [
+              "DEFAULT"
+            ]
+          }
+        }
+      ]
+    },
+    "model": "gpt-4o",
+    "promptFilterValues": "{\"resource\": [\"Meals\"], \"Age Group\": [\"infants: 0 months - 1 year\", \"seniors: 55 years+\"], \"Housing\": [\"homeless\"], \"Health\": [\"DEFAULT\"], \"Income\": [\"DEFAULT\"]}"
+  },
+  {
+    "convo_id": 2,
+    "prompt": "You are simulating realistic conversations between a User and a Virtual Assistant that supports nutrition-related resources and programs.\nThe Virtual Assistant (Bot) asks questions to help match users to programs. The User responds based on their needs and background.\nYou are tasked with generating a full 3–6 turn conversation between Bot and User, grounded in the provided Input Profile.\nThe User's responses should reflect their unique situation and constraints as described in the profile. Be specific and natural.\nUsers speak in a casual, text-like style, sometimes using shorthand, emotion, or context. Their answers may be short or meandering.\nEmbody the perspective of the user in America, making reasonable inferences or elaborations based on the Input Profile.\nEach User turn must include an 'extracted_values' dictionary that maps profile-relevant information surfaced in that turn.\nOutput the entire conversation and annotations as a structured JSON object.\nBelow are example CONVERSATIONS that illustrate how users respond in context using their profile.\n[EXAMPLE CONVERSATION 0]\nInput Profile: {\"resource\": [\"Meals\"], \"Age Group\": [\"adults: 31 - 54 years\", \"preschoolers: 3 - 4 years\", \"infants: 0 months - 1 year\"], \"Disability\": [\"physical disability\"], \"Health\": [\"chronic illness\"], \"Income\": [\"DEFAULT\"], \"Housing\": [\"runaways\"]}\nOutput: [{\"turn_id\": 0, \"Bot_Query\": \"Hello! I'm here to help you find nutrition resources in your area. How can I help?\", \"User_Response\": \"What is there to eat? I need something for myself.\", \"extracted_values\": {\"resource\": [\"Meals\"], \"Family Role\": [\"DEFAULT\"]}}, {\"turn_id\": 1, \"Bot_Query\": \"What details about age group should I know?\", \"User_Response\": \"I'm babysitting right now.\", \"extracted_values\": {\"Age Group\": [\"adults: 31 - 54 years\", \"preschoolers: 3 - 4 years\", \"infants: 0 months - 1 year\"]}}, {\"turn_id\": 2, \"Bot_Query\": \"What details about disability and health and income should I know?\", \"User_Response\": \"The kid is bound to a wheelchair. He has scoliosis.\", \"extracted_values\": {\"Disability\": [\"physical disability\"], \"Health\": [\"chronic illness\"], \"Income\": [\"DEFAULT\"]}}, {\"turn_id\": 3, \"Bot_Query\": \"What details about housing should I know?\", \"User_Response\": \"I fled my country.\", \"extracted_values\": {\"Housing\": [\"runaways\"]}}]\n[EXAMPLE CONVERSATION 1]\nInput Profile: {\"resource\": [\"Food Pantry\"], \"Health\": [\"genetic disorder\", \"diabetes\", \"pregnant\", \"all cancer types\", \"chronic illness\"], \"Disability\": [\"DEFAULT\"], \"Housing\": [\"DEFAULT\"], \"Income\": [\"DEFAULT\"], \"Age Group\": [\"DEFAULT\"], \"Family Role\": [\"DEFAULT\"]}\nOutput: [{\"turn_id\": 0, \"Bot_Query\": \"Hello! I'm here to help you find nutrition resources in your area. How can I help?\", \"User_Response\": \"I am looking for food pantries near me.\", \"extracted_values\": {\"resource\": [\"Food Pantry\"]}}, {\"turn_id\": 1, \"Bot_Query\": \"Can you tell me more about health?\", \"User_Response\": \"I have all kinds of health problems.\", \"extracted_values\": {\"Health\": [\"genetic disorder\", \"diabetes\", \"pregnant\", \"all cancer types\", \"chronic illness\"]}}, {\"turn_id\": 2, \"Bot_Query\": \"Can you tell me more about disability and housing and income?\", \"User_Response\": \"I don't have a disability, and I have a home. I'm doing financially well.\", \"extracted_values\": {\"Disability\": [\"DEFAULT\"], \"Housing\": [\"DEFAULT\"], \"Income\": [\"DEFAULT\"]}}, {\"turn_id\": 3, \"Bot_Query\": \"Do you have important considerations regarding age group and role?\", \"User_Response\": \"I want to skip my age and role.\", \"extracted_values\": {\"Age Group\": [\"DEFAULT\"], \"Family Role\": [\"DEFAULT\"]}}]\n[EXAMPLE CONVERSATION 2]\nInput Profile: {\"resource\": [\"Help Pay for Food\"], \"Age Group\": [\"infants: 0 months - 1 year\", \"young adults: 20 - 30 years\", \"adults: 31 - 54 years\", \"school-aged children: 5 - 12 years\", \"toddlers: 1 - 2 years\"], \"Disability\": [\"DEFAULT\"], \"Income\": [\"benefit recipients\"], \"Housing\": [\"DEFAULT\"]}\nOutput: [{\"turn_id\": 0, \"Bot_Query\": \"Hello! I'm here to help you find nutrition resources in your area. How can I help?\", \"User_Response\": \"How do I pay for food? I am diabetic and I am alone.\", \"extracted_values\": {\"resource\": [\"Help Pay for Food\"], \"Health\": [\"diabetes\"], \"Family Role\": [\"DEFAULT\"]}}, {\"turn_id\": 1, \"Bot_Query\": \"What details about age group should I know?\", \"User_Response\": \"I need food for anyone.\", \"extracted_values\": {\"Age Group\": [\"infants: 0 months - 1 year\", \"young adults: 20 - 30 years\", \"adults: 31 - 54 years\", \"school-aged children: 5 - 12 years\", \"toddlers: 1 - 2 years\"]}}, {\"turn_id\": 2, \"Bot_Query\": \"What details about disability and income should I know?\", \"User_Response\": \"I am not disabled. I am on WIC.\", \"extracted_values\": {\"Disability\": [\"DEFAULT\"], \"Income\": [\"benefit recipients\"]}}, {\"turn_id\": 3, \"Bot_Query\": \"Can you tell me more about housing?\", \"User_Response\": \"I don't live anywhere.\", \"extracted_values\": {\"Housing\": [\"DEFAULT\"]}}]\n[OUTPUT FORMAT REQUIREMENT]\nYou must output a single valid JSON object. Only use these profile keys in the 'extracted_values' dictionary for each turn:\n  resource, Disability, Housing, Income, Age Group, Health, Family Family Role.\nDo NOT add any other keys—even if the conversation mentions other topics.\nIf a turn does not refer to any profile-relevant key, 'extracted_values' should be empty or include the relevant keys with the value ['DEFAULT'].\nThe output should look like:\n{\n  \"conversation\": [\n    {\n      \"turn_id\": 0,\n      \"Bot_Query\": \"...\",\n      \"User_Response\": \"...\",\n      \"extracted_values\": {\n        \"<profile_key_1>\": [\"<value_1>\", \"<value_2>\"],\n        \"<profile_key_2>\": [\"<value_3>\"]\n      }\n    },\n    {\n      \"turn_id\": 1,\n      \"Bot_Query\": \"...\",\n      \"User_Response\": \"...\",\n      \"extracted_values\": {\"<profile_key_n>\": [\"DEFAULT\"]}\n    }\n  ]\n}\nOutput only valid JSON, and nothing else.\n\n\n[GENERATED CONVERSATION]\nInput Profile: {\"resource\": [\"Nutrition Education\"], \"Disability\": [\"DEFAULT\"], \"Housing\": [\"DEFAULT\"], \"Income\": [\"DEFAULT\"], \"Age Group\": [\"DEFAULT\"]}\nOutput: ",
+    "response": {
+      "conversation": [
+        {
+          "turn_id": 0,
+          "Bot_Query": "Hello! I'm here to help you find nutrition resources in your area. How can I help?",
+          "User_Response": "I've been eating a lot of junk food lately. Need some guidance on healthy stuff.",
+          "extracted_values": {
+            "resource": [
+              "Nutrition Education"
+            ]
+          }
+        },
+        {
+          "turn_id": 1,
+          "Bot_Query": "Can you share more about your age group or any specific needs?",
+          "User_Response": "I'm in my thirties, just looking to eat better.",
+          "extracted_values": {
+            "Age Group": [
+              "DEFAULT"
+            ]
+          }
+        },
+        {
+          "turn_id": 2,
+          "Bot_Query": "What about any disabilities, housing, or income situations?",
+          "User_Response": "No particular issues there, just your everyday grind.",
+          "extracted_values": {
+            "Disability": [
+              "DEFAULT"
+            ],
+            "Housing": [
+              "DEFAULT"
+            ],
+            "Income": [
+              "DEFAULT"
+            ]
+          }
+        }
+      ]
+    },
+    "model": "gpt-4o",
+    "promptFilterValues": "{\"resource\": [\"Nutrition Education\"], \"Disability\": [\"DEFAULT\"], \"Housing\": [\"DEFAULT\"], \"Income\": [\"DEFAULT\"], \"Age Group\": [\"DEFAULT\"]}"
+  },
+  {
+    "convo_id": 3,
+    "prompt": "You are simulating realistic conversations between a User and a Virtual Assistant that supports nutrition-related resources and programs.\nThe Virtual Assistant (Bot) asks questions to help match users to programs. The User responds based on their needs and background.\nYou are tasked with generating a full 3–6 turn conversation between Bot and User, grounded in the provided Input Profile.\nThe User's responses should reflect their unique situation and constraints as described in the profile. Be specific and natural.\nUsers speak in a casual, text-like style, sometimes using shorthand, emotion, or context. Their answers may be short or meandering.\nEmbody the perspective of the user in America, making reasonable inferences or elaborations based on the Input Profile.\nEach User turn must include an 'extracted_values' dictionary that maps profile-relevant information surfaced in that turn.\nOutput the entire conversation and annotations as a structured JSON object.\nBelow are example CONVERSATIONS that illustrate how users respond in context using their profile.\n[EXAMPLE CONVERSATION 0]\nInput Profile: {\"resource\": [\"Food Pantry\"], \"Housing\": [\"homeless\"], \"Family Role\": [\"caregiver\", \"spouses\", \"dependents\"], \"Income\": [\"DEFAULT\"], \"Health\": [\"DEFAULT\"]}\nOutput: [{\"turn_id\": 0, \"Bot_Query\": \"Hello! I'm here to help you find nutrition resources in your area. How can I help?\", \"User_Response\": \"I'm looking for toiletries, but I'm paralyzed from the waist down. I want a place with no age requirement.\", \"extracted_values\": {\"resource\": [\"Food Pantry\"], \"Age Group\": [\"DEFAULT\"], \"Disability\": [\"physical disability\"]}}, {\"turn_id\": 1, \"Bot_Query\": \"Do you have important considerations regarding housing and role and income?\", \"User_Response\": \"I can't go back home to my family. We are completely broke.\", \"extracted_values\": {\"Housing\": [\"homeless\"], \"Family Role\": [\"caregiver\", \"spouses\", \"dependents\"], \"Income\": [\"DEFAULT\"]}}, {\"turn_id\": 2, \"Bot_Query\": \"What details about health should I know?\", \"User_Response\": \"I don't have any other health problems.\", \"extracted_values\": {\"Health\": [\"DEFAULT\"]}}]\n[EXAMPLE CONVERSATION 1]\nInput Profile: {\"resource\": [\"Community Gardens\"], \"Health\": [\"pregnant\", \"all cancer types\", \"chronic illness\", \"diabetes\"], \"Age Group\": [\"DEFAULT\"], \"Family Role\": [\"DEFAULT\"], \"Housing\": [\"DEFAULT\"], \"Income\": [\"DEFAULT\"]}\nOutput: [{\"turn_id\": 0, \"Bot_Query\": \"Hello! I'm here to help you find nutrition resources in your area. How can I help?\", \"User_Response\": \"I want to find someplace to relax. I don't have a disability.\", \"extracted_values\": {\"resource\": [\"Community Gardens\"], \"Disability\": [\"DEFAULT\"]}}, {\"turn_id\": 1, \"Bot_Query\": \"What details about health should I know?\", \"User_Response\": \"I have to go to the doctor soon.\", \"extracted_values\": {\"Health\": [\"pregnant\", \"all cancer types\", \"chronic illness\", \"diabetes\"]}}, {\"turn_id\": 2, \"Bot_Query\": \"Do you have important considerations regarding age group and role?\", \"User_Response\": \"Can we skip my age and role?\", \"extracted_values\": {\"Age Group\": [\"DEFAULT\"], \"Family Role\": [\"DEFAULT\"]}}, {\"turn_id\": 3, \"Bot_Query\": \"What details about housing and income should I know?\", \"User_Response\": \"I have safe housing and a secure source of income.\", \"extracted_values\": {\"Housing\": [\"DEFAULT\"], \"Income\": [\"DEFAULT\"]}}]\n[EXAMPLE CONVERSATION 2]\nInput Profile: {\"resource\": [\"Help Pay for Food\"], \"Disability\": [\"DEFAULT\"], \"Income\": [\"DEFAULT\"], \"Age Group\": [\"teens: 13 - 19 years\"], \"Housing\": [\"DEFAULT\"], \"Health\": [\"DEFAULT\"], \"Family Role\": [\"parents\"]}\nOutput: [{\"turn_id\": 0, \"Bot_Query\": \"Hello! I'm here to help you find nutrition resources in your area. How can I help?\", \"User_Response\": \"My credit card declined.\", \"extracted_values\": {\"resource\": [\"Help Pay for Food\"]}}, {\"turn_id\": 1, \"Bot_Query\": \"Can you tell me more about disability?\", \"User_Response\": \"I do not have a disability.\", \"extracted_values\": {\"Disability\": [\"DEFAULT\"]}}, {\"turn_id\": 2, \"Bot_Query\": \"Can you tell me more about income?\", \"User_Response\": \"I do not have access to my money.\", \"extracted_values\": {\"Income\": [\"DEFAULT\"]}}, {\"turn_id\": 3, \"Bot_Query\": \"Do you have important considerations regarding age group and housing and health and role?\", \"User_Response\": \"I am 19 years old. I do not own a house, but I'm feeling ok. I am a mother.\", \"extracted_values\": {\"Age Group\": [\"teens: 13 - 19 years\"], \"Housing\": [\"DEFAULT\"], \"Health\": [\"DEFAULT\"], \"Family Role\": [\"parents\"]}}]\n[OUTPUT FORMAT REQUIREMENT]\nYou must output a single valid JSON object. Only use these profile keys in the 'extracted_values' dictionary for each turn:\n  resource, Disability, Housing, Income, Age Group, Health, Family Family Role.\nDo NOT add any other keys—even if the conversation mentions other topics.\nIf a turn does not refer to any profile-relevant key, 'extracted_values' should be empty or include the relevant keys with the value ['DEFAULT'].\nThe output should look like:\n{\n  \"conversation\": [\n    {\n      \"turn_id\": 0,\n      \"Bot_Query\": \"...\",\n      \"User_Response\": \"...\",\n      \"extracted_values\": {\n        \"<profile_key_1>\": [\"<value_1>\", \"<value_2>\"],\n        \"<profile_key_2>\": [\"<value_3>\"]\n      }\n    },\n    {\n      \"turn_id\": 1,\n      \"Bot_Query\": \"...\",\n      \"User_Response\": \"...\",\n      \"extracted_values\": {\"<profile_key_n>\": [\"DEFAULT\"]}\n    }\n  ]\n}\nOutput only valid JSON, and nothing else.\n\n\n[GENERATED CONVERSATION]\nInput Profile: {\"resource\": [\"Help Pay for Food\"], \"Disability\": [\"visual impairment\", \"physical disability\"], \"Family Role\": [\"caregiver\", \"spouses\", \"parents\"], \"Age Group\": [\"DEFAULT\"], \"Health\": [\"diabetes\", \"all cancer types\", \"pregnant\", \"chronic illness\", \"genetic disorder\"], \"Housing\": [\"DEFAULT\"], \"Income\": [\"DEFAULT\"]}\nOutput: ",
+    "response": {
+      "conversation": [
+        {
+          "turn_id": 0,
+          "Bot_Query": "Hello! I'm here to help you find nutrition resources in your area. How can I help?",
+          "User_Response": "Hey! I need assistance paying for food, things are tight financially right now.",
+          "extracted_values": {
+            "resource": [
+              "Help Pay for Food"
+            ]
+          }
+        },
+        {
+          "turn_id": 1,
+          "Bot_Query": "Could you give me some more info on disabilities you're considering?",
+          "User_Response": "Sure, I have a visual impairment and some physical limitations.",
+          "extracted_values": {
+            "Disability": [
+              "visual impairment",
+              "physical disability"
+            ]
+          }
+        },
+        {
+          "turn_id": 2,
+          "Bot_Query": "Any specific details about your family role?",
+          "User_Response": "I'm a parent and also a caregiver for my spouse.",
+          "extracted_values": {
+            "Family Role": [
+              "caregiver",
+              "spouses",
+              "parents"
+            ]
+          }
+        },
+        {
+          "turn_id": 3,
+          "Bot_Query": "What about health concerns you might have?",
+          "User_Response": "I've got diabetes and am currently pregnant. Additionally, I deal with a genetic disorder.",
+          "extracted_values": {
+            "Health": [
+              "diabetes",
+              "pregnant",
+              "genetic disorder"
+            ]
+          }
+        },
+        {
+          "turn_id": 4,
+          "Bot_Query": "And how about your current housing situation and income?",
+          "User_Response": "My housing situation is stable for now, but income is a challenge.",
+          "extracted_values": {
+            "Housing": [
+              "DEFAULT"
+            ],
+            "Income": [
+              "DEFAULT"
+            ]
+          }
+        }
+      ]
+    },
+    "model": "gpt-4o",
+    "promptFilterValues": "{\"resource\": [\"Help Pay for Food\"], \"Disability\": [\"visual impairment\", \"physical disability\"], \"Role\": [\"caregiver\", \"spouses\", \"parents\"], \"Age Group\": [\"DEFAULT\"], \"Health\": [\"diabetes\", \"all cancer types\", \"pregnant\", \"chronic illness\", \"genetic disorder\"], \"Housing\": [\"DEFAULT\"], \"Income\": [\"DEFAULT\"]}"
+  },
+  {
+    "convo_id": 4,
+    "prompt": "You are simulating realistic conversations between a User and a Virtual Assistant that supports nutrition-related resources and programs.\nThe Virtual Assistant (Bot) asks questions to help match users to programs. The User responds based on their needs and background.\nYou are tasked with generating a full 3–6 turn conversation between Bot and User, grounded in the provided Input Profile.\nThe User's responses should reflect their unique situation and constraints as described in the profile. Be specific and natural.\nUsers speak in a casual, text-like style, sometimes using shorthand, emotion, or context. Their answers may be short or meandering.\nEmbody the perspective of the user in America, making reasonable inferences or elaborations based on the Input Profile.\nEach User turn must include an 'extracted_values' dictionary that maps profile-relevant information surfaced in that turn.\nOutput the entire conversation and annotations as a structured JSON object.\nBelow are example CONVERSATIONS that illustrate how users respond in context using their profile.\n[EXAMPLE CONVERSATION 0]\nInput Profile: {\"resource\": [\"Community Gardens\"], \"Health\": [\"pregnant\", \"all cancer types\", \"chronic illness\", \"diabetes\"], \"Age Group\": [\"DEFAULT\"], \"Family Role\": [\"DEFAULT\"], \"Housing\": [\"DEFAULT\"], \"Income\": [\"DEFAULT\"]}\nOutput: [{\"turn_id\": 0, \"Bot_Query\": \"Hello! I'm here to help you find nutrition resources in your area. How can I help?\", \"User_Response\": \"I want to find someplace to relax. I don't have a disability.\", \"extracted_values\": {\"resource\": [\"Community Gardens\"], \"Disability\": [\"DEFAULT\"]}}, {\"turn_id\": 1, \"Bot_Query\": \"What details about health should I know?\", \"User_Response\": \"I have to go to the doctor soon.\", \"extracted_values\": {\"Health\": [\"pregnant\", \"all cancer types\", \"chronic illness\", \"diabetes\"]}}, {\"turn_id\": 2, \"Bot_Query\": \"Do you have important considerations regarding age group and role?\", \"User_Response\": \"Can we skip my age and role?\", \"extracted_values\": {\"Age Group\": [\"DEFAULT\"], \"Family Role\": [\"DEFAULT\"]}}, {\"turn_id\": 3, \"Bot_Query\": \"What details about housing and income should I know?\", \"User_Response\": \"I have safe housing and a secure source of income.\", \"extracted_values\": {\"Housing\": [\"DEFAULT\"], \"Income\": [\"DEFAULT\"]}}]\n[EXAMPLE CONVERSATION 1]\nInput Profile: {\"resource\": [\"Meals\"], \"Age Group\": [\"seniors: 55 years+\", \"infants: 0 months - 1 year\", \"teens: 13 - 19 years\"], \"Housing\": [\"homeless\", \"runaways\", \"near homeless\"], \"Health\": [\"DEFAULT\"], \"Family Role\": [\"spouses\"], \"Income\": [\"benefit recipients\"]}\nOutput: [{\"turn_id\": 0, \"Bot_Query\": \"Hello! I'm here to help you find nutrition resources in your area. How can I help?\", \"User_Response\": \"I'm starving and I can barely see.\", \"extracted_values\": {\"resource\": [\"Meals\"], \"Disability\": [\"visual impairment\", \"limited mobility\"]}}, {\"turn_id\": 1, \"Bot_Query\": \"What details about age group should I know?\", \"User_Response\": \"I am babysitting my grandchildren.\", \"extracted_values\": {\"Age Group\": [\"seniors: 55 years+\", \"infants: 0 months - 1 year\", \"teens: 13 - 19 years\"]}}, {\"turn_id\": 2, \"Bot_Query\": \"What details about housing and health should I know?\", \"User_Response\": \"I am at my child's house with their kids.  Everyone is healthy.\", \"extracted_values\": {\"Housing\": [\"homeless\", \"runaways\", \"near homeless\"], \"Health\": [\"DEFAULT\"]}}, {\"turn_id\": 3, \"Bot_Query\": \"Do you have important considerations regarding role and income?\", \"User_Response\": \"I have a spouse and we're on government plans.\", \"extracted_values\": {\"Family Role\": [\"spouses\"], \"Income\": [\"benefit recipients\"]}}]\n[EXAMPLE CONVERSATION 2]\nInput Profile: {\"resource\": [\"Community Gardens\"], \"Family Role\": [\"DEFAULT\"], \"Age Group\": [\"preschoolers: 3 - 4 years\", \"adults: 31 - 54 years\", \"teens: 13 - 19 years\", \"seniors: 55 years+\", \"children: 2 - 12 years\", \"young adults: 20 - 30 years\"], \"Disability\": [\"DEFAULT\"], \"Health\": [\"DEFAULT\"]}\nOutput: [{\"turn_id\": 0, \"Bot_Query\": \"Hello! I'm here to help you find nutrition resources in your area. How can I help?\", \"User_Response\": \"What can I do outside? We lost our home but I have my wallet.\", \"extracted_values\": {\"resource\": [\"Community Gardens\"], \"Housing\": [\"homeless\", \"runaways\"], \"Income\": [\"DEFAULT\"]}}, {\"turn_id\": 1, \"Bot_Query\": \"What details about role should I know?\", \"User_Response\": \"I don't have one.\", \"extracted_values\": {\"Family Role\": [\"DEFAULT\"]}}, {\"turn_id\": 2, \"Bot_Query\": \"What details about age group should I know?\", \"User_Response\": \"Is there a place open for anyone?\", \"extracted_values\": {\"Age Group\": [\"preschoolers: 3 - 4 years\", \"adults: 31 - 54 years\", \"teens: 13 - 19 years\", \"seniors: 55 years+\", \"children: 2 - 12 years\", \"young adults: 20 - 30 years\"]}}, {\"turn_id\": 3, \"Bot_Query\": \"Do you have important considerations regarding disability and health?\", \"User_Response\": \"I'm don't have a disability or have health concerns.\", \"extracted_values\": {\"Disability\": [\"DEFAULT\"], \"Health\": [\"DEFAULT\"]}}]\n[OUTPUT FORMAT REQUIREMENT]\nYou must output a single valid JSON object. Only use these profile keys in the 'extracted_values' dictionary for each turn:\n  resource, Disability, Housing, Income, Age Group, Health, Family Family Role.\nDo NOT add any other keys—even if the conversation mentions other topics.\nIf a turn does not refer to any profile-relevant key, 'extracted_values' should be empty or include the relevant keys with the value ['DEFAULT'].\nThe output should look like:\n{\n  \"conversation\": [\n    {\n      \"turn_id\": 0,\n      \"Bot_Query\": \"...\",\n      \"User_Response\": \"...\",\n      \"extracted_values\": {\n        \"<profile_key_1>\": [\"<value_1>\", \"<value_2>\"],\n        \"<profile_key_2>\": [\"<value_3>\"]\n      }\n    },\n    {\n      \"turn_id\": 1,\n      \"Bot_Query\": \"...\",\n      \"User_Response\": \"...\",\n      \"extracted_values\": {\"<profile_key_n>\": [\"DEFAULT\"]}\n    }\n  ]\n}\nOutput only valid JSON, and nothing else.\n\n\n[GENERATED CONVERSATION]\nInput Profile: {\"resource\": [\"Help Pay for Food\"], \"Income\": [\"DEFAULT\"], \"Housing\": [\"runaways\", \"near homeless\"], \"Family Role\": [\"DEFAULT\"], \"Disability\": [\"DEFAULT\"]}\nOutput: ",
+    "response": {
+      "conversation": [
+        {
+          "turn_id": 0,
+          "Bot_Query": "Hello! I'm here to help you find nutrition resources in your area. How can I help?",
+          "User_Response": "I'm looking for some help with food payments. Things have been rough with finding a stable place.",
+          "extracted_values": {
+            "resource": [
+              "Help Pay for Food"
+            ],
+            "Housing": [
+              "runaways",
+              "near homeless"
+            ]
+          }
+        },
+        {
+          "turn_id": 1,
+          "Bot_Query": "Thank you for letting me know. Do you have any specific considerations about your housing or income situation?",
+          "User_Response": "I'm kinda bouncing around places, staying wherever I can. Income isn't really steady either.",
+          "extracted_values": {
+            "Housing": [
+              "runaways",
+              "near homeless"
+            ],
+            "Income": [
+              "DEFAULT"
+            ]
+          }
+        },
+        {
+          "turn_id": 2,
+          "Bot_Query": "I understand. What about your family role? Anything I should know?",
+          "User_Response": "No special roles. It's just me right now.",
+          "extracted_values": {
+            "Family Role": [
+              "DEFAULT"
+            ]
+          }
+        },
+        {
+          "turn_id": 3,
+          "Bot_Query": "And are there any disabilities or health concerns to be aware of?",
+          "User_Response": "Nope, no disabilities or health issues at the moment.",
+          "extracted_values": {
+            "Disability": [
+              "DEFAULT"
+            ]
+          }
+        }
+      ]
+    },
+    "model": "gpt-4o",
+    "promptFilterValues": "{\"resource\": [\"Help Pay for Food\"], \"Income\": [\"DEFAULT\"], \"Housing\": [\"runaways\", \"near homeless\"], \"Role\": [\"DEFAULT\"], \"Disability\": [\"DEFAULT\"]}"
+  }
+]
